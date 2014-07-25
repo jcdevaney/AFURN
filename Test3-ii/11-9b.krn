@@ -1,0 +1,22 @@
+!!!COM: Laitz
+!!!OTL: Example 11.9 Cadential 64 from the Accented Passing Tone
+!!!Laitz: 232
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-
+2I	2T
+2iia	2P
+=	=
+2V	2D
+2I	2T
+==	==
+2I	2T
+2iia	2P
+=	=
+2Vb	2D
+2V	2D
+=	=
+1I	1T
+==	==
+*-	*-

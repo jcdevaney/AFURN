@@ -1,0 +1,27 @@
+!!!COM: Mozart
+!!!OTL: Piano Sonata in Bb, K.570 Allegretto
+!!!Laitz: 209
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-
+8I	8T
+=	=
+4I	4T
+4V7b	4T
+2Ia	2T
+=	=
+4Va	4T
+4I	4T
+2V7b	2T
+=	=
+2Ia	2T
+2Va	2T
+=	=
+8I	8T
+8Va	8T
+8I	8T
+8iia	8P
+2V	2D
+==	==
+*-	*-

@@ -1,0 +1,25 @@
+!!!COM: Laitz
+!!!OTL: Example 12.5 Cadential and Noncadential Phrase Models
+!!!Laitz: 251
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-	=-
+2i	2T
+2ia	2T
+=	=
+2iioa	2T
+2V7c	2T
+=	=
+2ia	2T
+2viioa	2T
+=	=
+1i	1T
+=	=
+1iioa	1P
+=	=
+1V	1D
+=	=
+1i	1T
+==	==
+*-	*-

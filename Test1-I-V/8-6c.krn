@@ -1,0 +1,20 @@
+!!!COM: Beethoven
+!!!OTL: Example 8.6c: Symphony no. 5 in C minor, Allegro
+!!!Laitz: 166
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-
+2.i	2.T
+=	=
+2.i	2.T
+=	=
+2.V7b	2.T
+=	=
+2.ia	2.T
+=	=
+2.V7a	2.T
+=	=
+2.i	2.T
+==	==
+*-	*-
