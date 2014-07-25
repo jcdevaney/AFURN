@@ -1,0 +1,45 @@
+!!!COM: Laitz
+!!!OTL: Example 18.16 Harmonizing a Bass Line 
+!!!Laitz: 358
+!!!Note: In Sequence, measure 2 beats 3-4 could be interpreted as VI or V/bII.
+**metpos
+*M4/4
+*tb8
+=-
+1
+4
+3
+4
+2
+4
+3
+4
+=
+1
+4
+3
+4
+2
+4
+3
+4
+=
+1
+4
+3
+4
+2
+4
+3
+4
+=
+1
+4
+3
+4
+2
+4
+3
+4
+==
+*-
