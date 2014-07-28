@@ -1,0 +1,38 @@
+!!!COM: Laitz
+!!!OTL: Example 11.8b Cadential 64 Arising from the Suspension
+!!!Laitz: 232
+**kern	**kern	**metpos
+*chord	*function	*
+*M4/4	*M4/4	*M4/4
+*M4/4	*M4/4	*M4/4
+*tb8	*tb8	*tb8
+*tb8	*tb8	*tb8
+=-	=-	=-
+2I	2T	1
+.	.	4
+.	.	3
+.	.	4
+2Ia	2T	2
+.	.	4
+.	.	3
+.	.	4
+=	=	=
+1V	1D	1
+.	.	4
+.	.	3
+.	.	4
+.	.	2
+.	.	4
+.	.	3
+.	.	4
+=	=	=
+1I	1T	1
+.	.	4
+.	.	3
+.	.	4
+.	.	2
+.	.	4
+.	.	3
+.	.	4
+==	==	==
+*-	*-	*-

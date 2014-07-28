@@ -1,0 +1,32 @@
+!!!COM: Mozart
+!!!OTL: Symphony in A Major, K. 385 Menuetto/Trio
+!!!Laitz: 228
+**kern	**kern	**metpos
+*chord	*function	*
+*M3/4	*M3/4	*M3/4
+*M3/4	*M3/4	*M3/4
+*tb8	*tb8	*tb8
+*tb8	*tb8	*tb8
+=-	=-
+2.I	2.T	1
+.	.	3
+.	.	2
+.	.	3
+.	.	2
+.	.	3
+=	=	=
+4V7	4D	1
+.	.	3
+4Cb	4D	2
+.	.	3
+4V	4D	2
+.	.	3
+=	=	=
+2.I	2.T	1
+.	.	3
+.	.	2
+.	.	3
+.	.	2
+.	.	3
+==	==	==
+*-	*-	*-

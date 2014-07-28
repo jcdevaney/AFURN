@@ -1,0 +1,18 @@
+!!!COM: Laitz
+!!!OTL: Example 8.4: V4/3 b1
+!!!Laitz: 163
+**kern	**kern	**metpos
+*chord	*function	*
+*M3/4	*M3/4	*M3/4
+*M3/4	*M3/4	*M3/4
+*tb8	*tb8	*tb8
+*tb8	*tb8	*tb8
+=-	=-
+4I	4T	1
+.	.	3
+4V7b	4T	2
+.	.	3
+4Ia	4T	2
+.	.	3
+==	==	==
+*-	*-	*-

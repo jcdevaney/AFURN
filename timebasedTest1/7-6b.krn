@@ -1,0 +1,20 @@
+!!!COM: Laitz
+!!!OTL: Example 7.6 Stabilizing Neighbors (Example B)
+!!!Laitz: 146
+**kern	**kern	**metpos
+*chord	*function	*
+*M4/4	*M4/4	*M4/4
+*M4/4	*M4/4	*M4/4
+*tb8	*tb8	*tb8
+*tb8	*tb8	*tb8
+=-	=-	=-
+4I	4T	1
+.	.	4
+4Va	4T	3
+.	.	4
+2I	2T	2
+.	.	4
+.	.	3
+.	.	4
+==	==	==
+*-	*-	*-
