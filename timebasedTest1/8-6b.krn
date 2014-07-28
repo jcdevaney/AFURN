@@ -1,0 +1,33 @@
+!!!COM: Mozart
+!!!OTL: Example 8.6 B: Piano Sonata in F, K.280, Presto
+!!!Laitz: 166
+**kern	**kern	**metpos
+*chord	*function	*
+*M3/8	*M3/8	*M3/8
+*M3/8	*M3/8	*M3/8
+*tb8	*tb8	*tb8
+*tb8	*tb8	*tb8
+=-	=-
+8	8T	1
+=	=	=
+4.I	4.T	1
+.	.	2
+.	.	2
+=	=	=
+4.V7b	4.T	1
+.	.	2
+.	.	2
+=	=	=
+4.I	4.T	1
+.	.	2
+.	.	2
+=	=	=
+4.V7c	4.T	1
+.	.	2
+.	.	2
+=	=	=
+4.I	4.T	1
+.	.	2
+.	.	2
+==	==	==
+*-	*-	*-
