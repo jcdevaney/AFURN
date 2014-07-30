@@ -8,10 +8,10 @@
 4i	4T 	T
 2.V7b	2.T	D
 =	=
-4i	4T
+4i	4T	T
 2.V7b	2.T	D
 =	=
-4i	4T
+4i	4T	T
 2V	2D	D
 =	=
 2.i	2.T 	T
