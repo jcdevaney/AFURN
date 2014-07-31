@@ -65,7 +65,15 @@ else
 
 ###Root Position Tonics####
 awk '{if ($1 ~ /[0-9]\.[iI]/ && $3 == "") print $1"\011"$2"\011""T"; else if ($1 ~ /[0-9][iI]/ && $3 == "") print $1"\011"$2"\011""T";
- else print $0}' /tmp/$1.tonicExpansion_vii > /tmp/$1.forCleaning
+ else print $0}' /tmp/$1.tonicExpansion_vii > /tmp/$1.smoothing
+	 
+#####Smoothing to get rid of multiple dominants in a phrase.	
+
+smooth1=$(pattern -f ../patterns/smoothing /tmp/$1.smoothing | awk '{print $6}')
+awk -v smooth1=$smooth1 -v smooth2=$smooth2 '{ if (NR == smooth1 )
+	print $1,"\011"$2,"\011""T (Tonic on Higher Level in Phrase Model)"
+else
+	print $0}' /tmp/$1.smoothing > /tmp/$1.forCleaning
 
 ####Cleaner
 sed 's/	 	/	/g' /tmp/$1.forCleaning | sed 's/		/	/g' |
