@@ -64,7 +64,7 @@ else
 	print $0}' /tmp/$1.tonicExpansion > /tmp/$1.tonicExpansion_vii
 
 ###Root Position Tonics####
-awk '{if ($1 ~ /[0-9]\.I/ && $3 == "") print $1"\011"$2"\011""T"; else if ($1 ~ /[0-9]I/ && $3 == "") print $1"\011"$2"\011""T";
+awk '{if ($1 ~ /[0-9]\.[iI]/ && $3 == "") print $1"\011"$2"\011""T"; else if ($1 ~ /[0-9][iI]/ && $3 == "") print $1"\011"$2"\011""T";
  else print $0}' /tmp/$1.tonicExpansion_vii > /tmp/$1.forCleaning
 
 ####Cleaner
