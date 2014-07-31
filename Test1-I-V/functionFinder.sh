@@ -69,8 +69,11 @@ awk '{if ($1 ~ /[0-9]\.[iI]/ && $3 == "") print $1"\011"$2"\011""T"; else if ($1
 	 
 #####Smoothing to get rid of multiple dominants in a phrase.	
 
-smooth1=$(pattern -f ../patterns/smoothing /tmp/$1.smoothing | awk '{print $6}')
-awk -v smooth1=$smooth1 -v smooth2=$smooth2 '{ if (NR == smooth1 )
+smooth1=$(pattern -f ../patterns/smoothing /tmp/$1.smoothing | head -1 | awk '{print $6}')
+smooth2=$(pattern -f ../patterns/smoothing /tmp/$1.smoothing | awk '{print $6}' | uniq | head -2 | tail -1)
+awk -v smooth1=$smooth1 -v smooth2=$smooth2 '{ if (NR==smooth1)
+	print $1,"\011"$2,"\011""T (Tonic on Higher Level in Phrase Model)"
+	else if (NR==smooth2)
 	print $1,"\011"$2,"\011""T (Tonic on Higher Level in Phrase Model)"
 else
 	print $0}' /tmp/$1.smoothing > /tmp/$1.forCleaning
