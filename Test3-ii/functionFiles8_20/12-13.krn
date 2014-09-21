@@ -6,18 +6,18 @@
 *chord	*function
 *M6/8	*M6/8
 =-	
-8I	8T
+8I	8T 	T
 =	=
 2.I	2.T	T
 =	=
 4.I	4.T	T
 4I	4T	T
-8V7c 	8T (Tonic on Higher Level in Phrase Model)
+8V7c 	8T 	T (Tonic on Higher Level in Phrase Model)
 =	=
-4Ia 	4T (Tonic Expansion through Dominant)
-8Va 	8T (Tonic on Higher Level in Phrase Model)
-4I 	4T (Tonic Expansion through Dominant)
-8iia 	8TPD
+4Ia 	4T 	T (Tonic Expansion through Dominant)
+8Va 	8T 	T (Tonic on Higher Level in Phrase Model)
+4I 	4T 	T (Tonic Expansion through Dominant)
+8iia 	8T 	PD
 =	=
 4.Vb	4.T	D
 8V	8T	D
@@ -31,6 +31,6 @@
 8iia 	8P 	PD
 8V	8D	D
 =	=
-2.I	2.T
+2.I	2.T 	T
 ==	==
 *-	*-

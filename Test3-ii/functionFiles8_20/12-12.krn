@@ -5,7 +5,7 @@
 *chord	*function
 *M3/4	*M3/4
 =-	
-2.i	2.T
+2.i	2.T 	T
 =	=
 4iva 	4P 	PD
 4ib	4P	T
@@ -14,6 +14,6 @@
 2V	2D	D
 4V7 	4D 	T (Tonic on Higher Level in Phrase Model)
 =	=
-2.i	2.T
+2.i	2.T 	T
 ==	==
 *-	*-

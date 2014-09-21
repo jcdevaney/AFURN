@@ -5,13 +5,13 @@
 *chord	*function
 *M3/4	*M3/4
 =-	
-2.i 	2.T
+2.i 	2.T 	T
 =	=
-2.Vb 	2.T
+2.Vb 	2.T 	T
 =	=
-2.ia 	2.T
+2.ia 	2.T 	T
 =	=
-2.V7c 	2.T (Tonic on Higher Level in Phrase Model)
+2.V7c 	2.T 	T (Tonic on Higher Level in Phrase Model)
 =	=
 2.ia	2.T	T
 =	=
@@ -21,6 +21,6 @@
 4Cb	4D 	D (cadential 64)
 4V	4D	D 	D (cadential 64)
 =	=
-2.i	2.T
+2.i	2.T 	T
 ==	==
 *-	*-

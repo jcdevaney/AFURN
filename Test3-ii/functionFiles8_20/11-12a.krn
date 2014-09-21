@@ -5,26 +5,26 @@
 *chord	*function
 *M4/4	*M4/4
 =-	
-1I	1T
+1I	1T 	T
 =	=
-1V7a 	1T
+1V7a 	1T 	T
 =	=
 2I	2T	T
-2iia 	2TPD
+2iia 	2T 	PD
 =	=
 4Vb	4T	D
 2V	2T	D
-4V7c 	4T (Tonic on Higher Level in Phrase Model)
+4V7c 	4T 	T (Tonic on Higher Level in Phrase Model)
 =	=
-1Ia 	1T
+1Ia 	1T 	T
 =	=
-2IV 	2T
-2I 	2T
+2IV 	2T 	T
+2I 	2T 	T
 =	=
 2iia 	2P 	PD
 4Cb	4D 	D (cadential 64)
 4V	4D	D 	D (cadential 64)
 =	=
-4I	4T
+4I	4T 	T
 ==	==
 *-	*-

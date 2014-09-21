@@ -5,10 +5,10 @@
 *chord	*function
 *M4/4	*M4/4
 =-	
-2I	2T
-4IVa 	4TPD
-4V7a 	4T
+2I	2T 	T
+4IVa 	4T 	PD
+4V7a 	4T 	T
 =	=
-1I 	1T (Tonic Expansion through Dominant)
+1I 	1T 	T (Tonic Expansion through Dominant)
 ==	==
 *-	*-

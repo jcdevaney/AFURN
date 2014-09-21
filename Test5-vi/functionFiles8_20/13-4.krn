@@ -1,0 +1,31 @@
+!!!COM:	Beethoven
+!!!OTL:	Violin
+!!!Laitz:	270
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-	=-
+1I	1T 	T
+=	=
+1I	1T	T
+=	=
+1vi	1T	T
+=	=
+1ii 	1T 	PD
+=	=
+1ii 	1T 	PD
+=	=
+1V7	1T	D
+=	=
+2V7	2T	D
+2V7c 	2T 	T (Tonic on Higher Level in Phrase Model)
+=	=
+2.Ia	2.T	T
+4vi	4T	T
+=	=
+2ii 	2P 	PD
+2V7 	2D 	T (Tonic on Higher Level in Phrase Model)
+=	=
+1I	1T 	T
+==	==
+*-	*-

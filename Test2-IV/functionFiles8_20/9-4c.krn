@@ -5,15 +5,15 @@
 *chord	*function
 *M4/4	*M4/4
 =-	
-2i	2T
+2i	2T 	T
 =	=
 4i	4T	T
 4i	4T	T
 4i	4T	T
-4V 	4T (Tonic on Higher Level in Phrase Model)
+4V 	4T 	T (Tonic on Higher Level in Phrase Model)
 =	=
 4ia	4T	T
-4Va 	4T (Tonic on Higher Level in Phrase Model)
+4Va 	4T 	T (Tonic on Higher Level in Phrase Model)
 4i	4T	T
 4iva 	4P 	PD
 =	=

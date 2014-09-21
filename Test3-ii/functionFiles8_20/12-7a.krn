@@ -5,9 +5,9 @@
 *chord	*function
 *M4/4	*M4/4
 =-	
-2I	2T
-4ii7a 	4TPD
-4V7c 	4T (Tonic on Higher Level in Phrase Model)
+2I	2T 	T
+4ii7a 	4T 	PD
+4V7c 	4T 	T (Tonic on Higher Level in Phrase Model)
 =	=
 1Ia	1T	T
 ==	==

@@ -5,10 +5,10 @@
 *chord	*function
 *M4/4	*M4/4
 =-	
-2I	2T
-4ii7c 	4TPD
-4V7a 	4T
+2I	2T 	T
+4ii7c 	4T 	PD
+4V7a 	4T 	T
 =	=
-1I	1T
+1I	1T 	T
 ==	==
 *-	*-

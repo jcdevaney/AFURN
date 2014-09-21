@@ -5,8 +5,8 @@
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-4ia	4T
-4va	4T
+4ia	4T	T
+4va	4T 	T
 4VI 	4P 	T (Tonic on Higher Level in Phrase Model)
 4iva 	4P 	PD
 =	=

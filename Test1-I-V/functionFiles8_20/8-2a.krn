@@ -5,9 +5,9 @@
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-2I 	2T (Tonic Expansion through Dominant)
-2Va 	2T (Tonic on Higher Level in Phrase Model)
+2I 	2T 	T (Tonic Expansion through Dominant)
+2Va 	2T 	T (Tonic on Higher Level in Phrase Model)
 =	=
-1I 	1T (Tonic Expansion through Dominant)
+1I 	1T 	T (Tonic Expansion through Dominant)
 ==	==
 *-	*-

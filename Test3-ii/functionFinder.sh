@@ -192,6 +192,6 @@ else print $0 }' /tmp/$1.d5 > /tmp/$1.d6
 	
 	
 sed 's/	 	/	/g' /tmp/$1.d6 | sed 's/	 	/	/g' | awk '{if($1 ~ /^\=/) print $1"\011"$2; else if ($1 ~ /^\*\-/) print $1"\011"$2; else print $0}' | awk '{if ($1 ~ /\!/) print $1"\011"$2;
-else if ($1 ~ /\*/) print $1"\011"$2;else print $0}' | sed 's/		/	/g' | sed 's/T 	/T/g' | sed 's/TT/T/g' | sed 's/TT/T/g'  # > /tmp/$1.cleaned
-#
+else if ($1 ~ /\*/) print $1"\011"$2;else print $0}' | sed 's/		/	/g' | sed 's/	T 	/T/g' | sed 's/	 T	//g' | sed 's/TTT/T	T/g' | sed 's/T TT/T	T/g' # > /tmp/$1.cleaned
+# #
 #
