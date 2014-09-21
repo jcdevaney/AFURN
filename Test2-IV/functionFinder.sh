@@ -187,11 +187,11 @@ else print $0
 deceptive_1=$(pattern -f ../patterns/deceptiveCadence /tmp/$1.d4 | head -1 | awk '{print $9}')
 awk -v deceptive_1=$deceptive_1 '{ if (NR == deceptive_1)
 print $1,"\011"$2,"\011""T"
-else print $0 }' /tmp/$1.d5 # > /tmp/$1.d6
+else print $0 }' /tmp/$1.d5 > /tmp/$1.d6
 	
 	
 	
-# sed 's/	 	/	/g' /tmp/$1.d6 | sed 's/	 	/	/g' | awk '{if($1 ~ /^\=/) print $1"\011"$2; else if ($1 ~ /^\*\-/) print $1"\011"$2; else print $0}' | awk '{if ($1 ~ /\!/) print $1"\011"$2;
-# else if ($1 ~ /\*/) print $1"\011"$2;else print $0}' | sed 's/		/	/g' | sed 's/T 	/T/g' | sed 's/TT/T/g' | sed 's/TT/T/g'  # > /tmp/$1.cleaned
+sed 's/	 	/	/g' /tmp/$1.d6 | sed 's/	 	/	/g' | awk '{if($1 ~ /^\=/) print $1"\011"$2; else if ($1 ~ /^\*\-/) print $1"\011"$2; else print $0}' | awk '{if ($1 ~ /\!/) print $1"\011"$2;
+else if ($1 ~ /\*/) print $1"\011"$2;else print $0}' | sed 's/		/	/g' | sed 's/T 	/T/g' | sed 's/TT/T/g' | sed 's/TT/T/g'  # > /tmp/$1.cleaned
 #
 #

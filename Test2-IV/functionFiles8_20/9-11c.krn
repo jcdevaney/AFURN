@@ -1,0 +1,15 @@
+!!!COM:	Laitz
+!!!OTL:	Example
+!!!Laitz:	199
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-	=-
+2I	2T
+4IV 	4P 	PD
+4ii 	4P 	PD
+=	=
+2V7 	2D 	T (Tonic on Higher Level in Phrase Model)
+2I	2T
+==	==
+*-	*-
