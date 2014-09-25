@@ -1,0 +1,16 @@
+!!!COM:	Mozart
+!!!OTL:	Symphony
+!!!Laitz:	228
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-	=-
+2.I	2.T 	T
+=	=
+4V7 	4D 	T (Tonic on Higher Level in Phrase Model)
+4Cb	4D 	D (cadential 64)
+4V 	4D 	T (Tonic on Higher Level in Phrase Model)
+=	=
+2.I	2.T 	T
+==	==
+*-	*-

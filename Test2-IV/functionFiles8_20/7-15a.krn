@@ -1,0 +1,16 @@
+!!!COM:	Laitz
+!!!OTL:	Example
+!!!Laitz:	154
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-	
+4Ia	4T	T
+=	=
+4V 	4D 	T (Tonic on Higher Level in Phrase Model)
+4IVa 	4D 	PD
+4Va 	4D 	T (Tonic Expansion through Dominant)
+=	=
+2.I 	2.T 	T (Tonic Expansion through Dominant)
+==	==
+*-	*-
