@@ -77,7 +77,37 @@ awk -v smooth1=$smooth1 -v smooth2=$smooth2 '{ if (NR==smooth1)
 	else if (NR==smooth2)
 	print $1,"\011"$2,"\011""T (Tonic on Higher Level in Phrase Model)"
 else
-	print $0}' /tmp/$1.smoothing > /tmp/$1.sd
+	print $0}' /tmp/$1.smoothing > /tmp/$1.smoothing1	
+
+smooth3=$(pattern -f ../patterns/smoothing2 /tmp/$1.smoothing1 | head -1 | awk '{print $6}')
+smooth4=$(pattern -f ../patterns/smoothing2 /tmp/$1.smoothing1 | head -1 | awk '{print $9}')
+awk -v smooth3=$smooth3 -v smooth4=$smooth4 '{ if (NR >= smooth3 && NR <= smooth4 && ($1 ~ /I/)) print $1,"\011"$2,"\011""T"
+else if (NR >= smooth3 && NR <= smooth4 && ($1 ~ /IV/)) print $1,"\011"$2,"\011""PD"
+else if (NR >= smooth3 && NR <= smooth4 && ($1 ~ /V/)) print $1,"\011"$2,"\011""D"
+else print $0
+}' /tmp/$1.smoothing1 > /tmp/$1.smoothing2
+
+domdom1=$(pattern -f ../patterns/domdom /tmp/$1.smoothing2 | head -1 | awk '{print $6}')
+domdom2=$(pattern -f ../patterns/domdom /tmp/$1.smoothing2 | head -1 | awk '{print $9}')
+awk -v domdom1=$domdom1 -v domdom2=$domdom2 '{ if (NR >= domdom1 && NR <= domdom2 && ($1 ~ /V/))
+print $1,"\011"$2,"\011""D"
+else print $0
+}' /tmp/$1.smoothing2 > /tmp/$1.smoothing3
+
+domdom3=$(pattern -f ../patterns/domdom2 /tmp/$1.smoothing3 | head -1 | awk '{print $6}')
+domdom4=$(pattern -f ../patterns/domdom2 /tmp/$1.smoothing3 | head -1 | awk '{print $9}')
+awk -v domdom3=$domdom3 -v domdom4=$domdom4 '{ if (NR >= domdom3 && NR <= domdom4)
+print $1,"\011"$2,"\011""D"
+else print $0
+}' /tmp/$1.smoothing3 > /tmp/$1.smoothing4
+
+domdom5=$(pattern -f ../patterns/domdom3 /tmp/$1.smoothing4 | head -1 | awk '{print $6}')
+domdom6=$(pattern -f ../patterns/domdom3 /tmp/$1.smoothing4 | head -1 | awk '{print $9}')
+awk -v domdom5=$domdom5 -v domdom5=$domdom6 '{ if (NR >= domdom5 && NR <= domdom6 && ($3 ~ /D/))
+print $1,"\011"$2,"\011""D"
+else print $0
+}' /tmp/$1.smoothing4 > /tmp/$1.sd
+
 
 ##################ii and IV chord rules#####################
 ####label ii and IV chords as as PD.
