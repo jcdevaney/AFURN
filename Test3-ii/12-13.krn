@@ -1,7 +1,6 @@
 !!!COM: Mozart
 !!!OTL: Piano Sonata in D Major, K.576 Allegro
 !!!Laitz: 257
-!!!Note: This example has an EPM that is inconsistently labeled in the book (I-PD-V).  Compare with the labeling in Ex. 14.6 (T-PD-BRDorHC).
 **kern	**kern
 *chord	*function
 *M6/8	*M6/8
