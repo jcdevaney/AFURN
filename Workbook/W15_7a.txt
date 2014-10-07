@@ -1,20 +1,20 @@
 !!!COM: Laitz
 !!!OTL: Exercise 15.7a
 !!!Laitz: 149, 236
-**chords	*function	**comments
-*M4/4	*M4/4	*M4/4
-=-	=-	=-
-2i	T	T
-4ii@42	T	T
-4V65	T	T
-=	=	=
-4i	T	T
-4V43	T	T
-4i6	T	T
-4V42	T	T
-=	=	=
-2i6	T	T
-2iv6	P	
-=	=	=
-1V	D	
-==	==	==
+**chords	*function
+*M4/4	*M4/4
+=-	=-
+2i	T
+4ii@42	T
+4V65	T
+=	=
+4i	T
+4V43	T
+4i6	T
+4V42	T
+=	=
+2i6	T
+2iv6	P
+=	=
+1V	D
+==	==
