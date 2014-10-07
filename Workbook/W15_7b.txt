@@ -1,0 +1,20 @@
+!!!COM: Laitz
+!!!OTL: Exercise 15.7b
+!!!Laitz: 149, 236
+**chords	*function	**comments
+*M4/4	*M4/4	*M4/4
+=-	=-	=-
+2i	T	
+4VII65	T	
+4III	T	
+=	=	=
+4iio6	T	
+4V	T	
+4VI	T	
+4ii@65	T	
+=	=	=
+2C64	D	
+2V7	D	
+=	=	=
+1i	T	
+==	==	==

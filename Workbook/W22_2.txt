@@ -1,0 +1,21 @@
+!!!COM: Laitz
+!!!OTL: Exercise 22_2
+!!!Laitz: 247, 351
+**chords	*function **comments
+*M4/4	*M4/4	*M4/4
+=-	=-	=-
+4I	T	
+4V7	T	
+2I/bVI	T	
+=	=	=
+4IV/bVI	T	
+4V7/bVI	T	
+2vi/bVI	T	
+=	=	=
+4ii6/bVI	P	m
+4viio7/bVI	P	m
+4C64/bVI	D	m
+4V	D	m
+=	=	=
+1I/bVI	T	m
+==	==	==

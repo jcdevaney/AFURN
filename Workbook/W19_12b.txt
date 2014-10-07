@@ -1,0 +1,26 @@
+!!!COM: Laitz
+!!!OTL: Exercise 19_12a - interpretation 1
+!!!Laitz: 198, 307
+!!!Note: could this be two phrases?
+**chords	*function	**comments
+*M2/4	*M2/4	*M2/4
+=	=	=
+4I	T	
+4V7	T	
+4vi	T	
+4ii6	T	
+=	=	=
+4V	T	
+8V6	T	
+8V65	T	
+2VI/iii	T	
+=	=	=
+4V/iii	T	
+4V42/iii	T	
+4i6/iii	T	
+4ii@65/iii	P	m
+=	=	=
+4C64/iii	D	m
+4V/iii	D	m
+2i/iii	D	m
+==	==	==

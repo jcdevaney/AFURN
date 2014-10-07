@@ -1,0 +1,30 @@
+!!!COM: Laitz
+!!!OTL: Exercise 23_11
+!!!Laitz: 257, 381
+!!!Note: possible unlabeled EPM
+**chords	*function **comments
+*M4/4	*M4/4	*M4/4
+=-	=-	=-
+4i	T	
+4V43	T	
+4i	T	
+4v6	T	
+=	=	=
+2VI	T	
+4V	T	
+4V42	T	
+=	=	=
+4i6	T	
+4bII6	T	
+4viio7/V	T	
+4V7	T	
+=	=	=
+4III/iv	T	
+4V43/iv	T	
+4i/iv	T	
+4bII6	P	m
+=	=	=
+4C64/iv	D	m
+4V/iv	D	m
+2i/iv	T	m
+==	==	==

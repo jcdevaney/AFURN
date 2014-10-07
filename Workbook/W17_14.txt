@@ -1,0 +1,43 @@
+!!!COM: Laitz
+!!!OTL: Exercise 17.14
+!!!Laitz: 145, 265
+!!!Note: missing RN in book for m4 beat 4 because it is part of sequence
+**chords	*function	**comments
+*M4/4	*M4/4	*M4/4
+=-	=-	=-
+4i	T	T
+4v6	T	T
+4iv6	T	T
+4V42	T	T
+=	=	=
+4i6	T	T
+4V43	T	T
+2i	T	T
+=	=	=
+4iv7	T	T
+4VII7	T	T
+4III7	T	T
+4VI7	T	T
+=	=	=
+4iio	T	T
+4V65	T	T
+4i	T	T
+4v6	T	T
+=	=	=
+4VI	T	T
+4III	T	T
+4iv7	T	T
+4V	T	T
+=	=	=
+4i	T	T
+4VII65	T	T
+4III	T	T
+4i6	P	A2<-3|+4>
+=	=	=
+4iv	P	A2<-3|+4>
+4iio6	P	A2<-3|+4>
+4C64	D	A2<-3|+4>
+4V7	D	
+=	=	=
+1i	T	
+==	==	==

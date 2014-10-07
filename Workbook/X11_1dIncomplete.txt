@@ -1,0 +1,17 @@
+!!!COM: Traditional
+!!!OTL: "Amazing Grace"
+!!!Laitz: 106, 172
+!!!Note: analysis in the answer book stops after the first four measures.
+**chords	*function
+*M3/4	*M3/4
+4I	T
+=	=
+2.I	T
+=	=
+2I	T
+4IV64	T
+=	=
+2.IV64	T
+=	=
+2.I	T
+==	=

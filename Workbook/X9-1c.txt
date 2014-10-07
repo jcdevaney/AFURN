@@ -1,0 +1,21 @@
+!!!COM: Corelli
+!!!OTL: Exercise 9.1c, Chamber Sonata in Eb, op. 2, no. 11 Giga
+!!!Laitz: 84, 144
+**chord	*function
+*M12/8	*M12/8
+8I	T
+4.I	T
+4.IV	P
+4.V	D
+=	=
+4.I	T
+4.I6	T
+4.IV	P
+4.V	D
+=	=
+4.I	T
+4.I	T
+4.ii	P
+4.V	D
+=	=
+4.I	T
