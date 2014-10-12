@@ -1,0 +1,22 @@
+!!!COM: Corelli
+!!!OTL: Example 9.4C: Phrygian Half Cadence "Violin Sonata in A Minor, op1, no4 Presto/Adagio.
+!!!Laitz: 193
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-
+2i	2T
+=	=
+4i	4T
+4i	4T
+4i	4T
+4V	4T
+=	=
+4ia	4T
+4Va	4T
+4i	4T
+4iva	4P
+=	=
+2V	2D
+==	==
+*-	*-

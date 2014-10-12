@@ -1,0 +1,16 @@
+!!!COM: Mozart
+!!!OTL: Example 8.3c: String Quartet in Bb major, K. 159, Rondo
+!!!Laitz: 162
+**kern	**kern
+*chord	*function
+*M2/4	*M2/4
+=-	=-
+2I	2T
+=	=
+2V7a	2T
+=	=
+2I	2T
+=	=
+2V	2D
+==	==
+*-	*-

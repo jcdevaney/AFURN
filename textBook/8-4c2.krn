@@ -1,0 +1,19 @@
+!!!COM: Laitz
+!!!OTL: Example 8.4C2: Schubert Wasserflut from Winterreise
+!!!Laitz: 163
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-	=-
+4i	4T
+2.V7b	2.T
+=	=
+4i	4T
+2.V7b	2.T
+=	=
+4i	4T
+2V	2D
+=	=
+2.i	2.T
+==	==
+*-	*-

@@ -1,0 +1,17 @@
+!!!COM: Bach
+!!!OTL: Example 9.4B: Phrygian Half Cadence "Wo soll ich fliehen hin" Cantata no.5, BWV5.
+!!!Laitz: 193
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-
+4i	4T
+=	=
+4i	4T
+4Va	4T
+4i	4T
+4iva	4P
+=	=
+2.V	2.D
+==	==
+*-	*-

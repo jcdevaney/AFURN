@@ -4,9 +4,9 @@
 **chord	*function
 *M6/4	*M6/4
 =-	=-
-1V42	T
-2i6	T
+1V42	1T
+2i6	2T
 =	=
-2iv	P
-	P
+2iv	2P
+1V	1D
 ==	==

@@ -2,23 +2,23 @@
 !!!OTL: Exercise 14.7d1, Piano Sonata no. 7 in D major, op. 10, no. 3, Menuetto, Allegro
 !!!Laitz: 137, 225
 **chord	*function
-*M3/4	*M3/4
-4I	T
+*M3/4	**M3/4
+4I	4T
 =	=
-2.I	T
+2.I	2T
 =	=
-2.V43	T
+2.V43	2T
 =	=
-2.I6	T
+2.I6	2T
 =	=
-2.I	T
+2.I	2T
 =	=
-2.V65	T
+2.V65	2T
 =	=
-2I	T
-4ii6	P
+2I	2T
+4ii6	4P
 =	=
-2.V64	D
+2.V64	2D
 =	=
-2.V53	D
+2.V53	2D
 ==	==
