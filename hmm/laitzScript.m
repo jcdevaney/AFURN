@@ -1,4 +1,4 @@
-ruleDir='../ruleFiles/';
+ruleDir='../ruleFilesTextBook/';
 textDir='../textBook/';
 wbDir='../workbook';
 
@@ -21,3 +21,6 @@ for i = 1 : 5
 end
 
 hmm=calcPRF(hmm);
+hmm.confusion=HMMvals{1}.confusion+HMMvals{2}.confusion+HMMvals{3}.confusion+HMMvals{4}.confusion+HMMvals{5}.confusion;
+hmm.confusionPercent=hmm.confusion/sum(sum(hmm.confusion))*100;
+rules.confusionPercent=rules.confusion/sum(sum(rules.confusion))*100;

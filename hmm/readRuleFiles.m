@@ -102,14 +102,20 @@ predVals(predVals==' ')='T';
 rules=PRstruct;
 
 % modify confusionMat to handle this
-confusion = zeros(3);
 funcs=['T' 'P' 'D'];
-for k = 1:3
-    for k2 = 1:3
-        confusion(k, k2) = confusion(k, k2) + sum((predVals == funcs(k)) .* (gtVals == funcs(k2)));
-    end
+for i = 1 : 3
+    predVals1(predVals==funcs(i))=i;     
+    gtVals1(gtVals==funcs(i))=i; 
 end
- 
+rules.confusion=confusionMat(predVals1,gtVals1);
+
+% 
+% for k = 1:3
+%     for k2 = 1:3
+%         confusion(k, k2) = confusion(k, k2) + sum((predVals == funcs(k)) .* (gtVals == funcs(k2)));
+%     end
+% end
+%  
 
 for i = 1 : length(gtVals)
     if strcmp('T',gtVals(i))
