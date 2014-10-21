@@ -46,6 +46,15 @@ else print $0 }' /tmp/$1.cad64 > /tmp/$1.dominantsubs
 awk '{ if ($1 ~ /^.*viio42/)
  print $1,"\011"$2,"\011""D (vii as dom.)"
 else print $0 }' /tmp/$1.dominantsubs > /tmp/$1.dominantsubs_vii
+	
+####Enforce phrase model here.
+# pseudo code:
+# if T is followed by end of example, V before it should be D, ii or IV before it should be P;
+# 	if D is followed by end, ii or IV should be labeled P, T before that should be T
+# 		if T is followed by end, D before that should be T, and T leading to that should be T
+# 			if ends with D, I before that should be tonic.
+
+
 
 
 # # # #### Tonic Expansion through V #######
@@ -82,7 +91,7 @@ else
 smooth3=$(pattern -f ../patterns/smoothing2 /tmp/$1.smoothing1 | head -1 | awk '{print $6}')
 smooth4=$(pattern -f ../patterns/smoothing2 /tmp/$1.smoothing1 | head -1 | awk '{print $9}')
 awk -v smooth3=$smooth3 -v smooth4=$smooth4 '{ if (NR >= smooth3 && NR <= smooth4 && ($1 ~ /I/)) print $1,"\011"$2,"\011""T"
-else if (NR >= smooth3 && NR <= smooth4 && ($1 ~ /IV/)) print $1,"\011"$2,"\011""PD"
+else if (NR >= smooth3 && NR <= smooth4 && ($1 ~ /IV/)) print $1,"\011"$2,"\011""P"
 else if (NR >= smooth3 && NR <= smooth4 && ($1 ~ /V/)) print $1,"\011"$2,"\011""D"
 else print $0
 }' /tmp/$1.smoothing1 > /tmp/$1.smoothing2
@@ -110,17 +119,17 @@ else print $0
 
 
 ##################ii and IV chord rules#####################
-####label ii and IV chords as as PD.
+####label ii and IV chords as as P.
 awk '{ if ($1 ~ /^.*ii/)
- print $1,"\011"$2,"\011""PD"
-else if ($1 ~ /^.*IV/) print $1,"\011"$2,"\011""PD";
-	else if ($1 ~ /^.*iv/) print $1,"\011"$2,"\011""PD";
+ print $1,"\011"$2,"\011""P"
+else if ($1 ~ /^.*IV/) print $1,"\011"$2,"\011""P";
+	else if ($1 ~ /^.*iv/) print $1,"\011"$2,"\011""P";
 		else print $0 }' /tmp/$1.sd > /tmp/$1.sd1 
 #######Arpeggiating as expanding tonic (rule 3)########			
-arpPD1=$(pattern -f ../patterns/arpPD /tmp/$1.sd1 | head -1 | awk '{print $6}')
-arpPD2=$(pattern -f ../patterns/arpPD /tmp/$1.sd1 | head -1 | awk '{print $9}')
+arpP1=$(pattern -f ../patterns/arpPD /tmp/$1.sd1 | head -1 | awk '{print $6}')
+arpP2=$(pattern -f ../patterns/arpPD /tmp/$1.sd1 | head -1 | awk '{print $9}')
 
-awk -v arpPD1=$arpPD1 -v arpPD2=$arpPD2 '{ if (NR >= arpPD1 && NR <= arpPD2)
+awk -v arpP1=$arpP1 -v arpP2=$arpP2 '{ if (NR >= arpP1 && NR <= arpP2)
 print $1,"\011"$2,"\011""T"
 else 
 	print $0
@@ -128,37 +137,37 @@ else
 
 #####IV6 as expanding dominant. (ii/IV rule 4)
 
-arpPD1a=$(pattern -f ../patterns/arpPDa /tmp/$1.sd2 | head -1 | awk '{print $6}')
-arpPD2a=$(pattern -f ../patterns/arpPDa /tmp/$1.sd2 | head -1 | awk '{print $9}')
-awk -v arpPD1a=$arpPD1a -v arpPD2a=$arpPD2a '{ if (NR >= arpPD1a && NR <= arpPD2a)
+arpP1a=$(pattern -f ../patterns/arpPDa /tmp/$1.sd2 | head -1 | awk '{print $6}')
+arpP2a=$(pattern -f ../patterns/arpPDa /tmp/$1.sd2 | head -1 | awk '{print $9}')
+awk -v arpP1a=$arpP1a -v arpP2a=$arpP2a '{ if (NR >= arpP1a && NR <= arpP2a)
 print $1,"\011"$2,"\011""D"
 else 
 	print $0
 }' /tmp/$1.sd2 > /tmp/$1.sd3
 
 ######Plagal Motion (IV)
-arpPD1b=$(pattern -f ../patterns/arpPDb /tmp/$1.sd3 | head -1 | awk '{print $6}')
-arpPD2b=$(pattern -f ../patterns/arpPDb /tmp/$1.sd3 | head -1 | awk '{print $9}')
-awk -v arpPD1b=$arpPD1b -v arpPD2b=$arpPD2b '{ if (NR >= arpPD1b && NR <= arpPD2b)
+arpP1b=$(pattern -f ../patterns/arpPDb /tmp/$1.sd3 | head -1 | awk '{print $6}')
+arpP2b=$(pattern -f ../patterns/arpPDb /tmp/$1.sd3 | head -1 | awk '{print $9}')
+awk -v arpP1b=$arpP1b -v arpP2b=$arpP2b '{ if (NR >= arpP1b && NR <= arpP2b)
 print $1,"\011"$2,"\011""T"
 else 
 	print $0
 }' /tmp/$1.sd3 > /tmp/$1.sd4
 ######Plagal Motion (ii65)
-arpPD1c=$(pattern -f ../patterns/arpPDc /tmp/$1.sd4 | head -1 | awk '{print $6}')
-arpPD2c=$(pattern -f ../patterns/arpPDc /tmp/$1.sd4 | head -1 | awk '{print $9}')
-awk -v arpPD1c=$arpPD1c -v arpPD2c=$arpPD2c '{ if (NR >= arpPD1c && NR <= arpPD2c)
+arpP1c=$(pattern -f ../patterns/arpPDc /tmp/$1.sd4 | head -1 | awk '{print $6}')
+arpP2c=$(pattern -f ../patterns/arpPDc /tmp/$1.sd4 | head -1 | awk '{print $9}')
+awk -v arpP1c=$arpP1c -v arpP2c=$arpP2c '{ if (NR >= arpP1c && NR <= arpP2c)
 print $1,"\011"$2,"\011""D"
 else 
 	print $0
 }' /tmp/$1.sd4 > /tmp/$1.sd5
 
 ##########iii chords 
-###Make all iii chords into Tonic function and all bIII into PD (rules 1 and 2)
+###Make all iii chords into Tonic function and all bIII into P (rules 1 and 2)
 awk '{ if ($1 ~ /iii/)
 print $1,"\011"$2,"\011""T"
 else if ($1 ~ /bIII/)
-	print $1,"\011"$2,"\011""PD"
+	print $1,"\011"$2,"\011""P"
 	print $0
 }' /tmp/$1.sd5 > /tmp/$1.iii
 
@@ -221,7 +230,8 @@ else print $0 }' /tmp/$1.d5 > /tmp/$1.d6
 	
 	
 	
-sed 's/	 	/	/g' /tmp/$1.d6 | sed 's/	 	/	/g' | awk '{if($1 ~ /^\=/) print $1"\011"$2; else if ($1 ~ /^\*\-/) print $1"\011"$2; else print $0}' | awk '{if ($1 ~ /\!/) print $1"\011"$2;
+sed 's/	 	/	/g' /tmp/$1.d6 | sed 's/	 	/	/g' | 
+awk '{if($1 ~ /^\=/) print $1"\011"$2; else if ($1 ~ /^\*\-/) print $1"\011"$2; else print $0}' | awk '{if ($1 ~ /\!/) print $1"\011"$2;
 else if ($1 ~ /\*/) print $1"\011"$2;else print $0}' | sed 's/		/	/g' | sed 's/	T 	/T/g' | sed 's/	 T	//g' | sed 's/TTT/T	T/g' | sed 's/T TT/T	T/g' # > /tmp/$1.cleaned
 # #
 #
