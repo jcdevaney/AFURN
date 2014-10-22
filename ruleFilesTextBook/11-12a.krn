@@ -4,13 +4,13 @@
 **kern	**kern
 *chord	*function
 *M4/4	*M4/4
-=-	
+=-	=
 1I	1T 	T
 =	=
 1V7a 	1T 	T
 =	=
 2I	2T	T
-2iia 	2T 	PD
+2iia 	2T 	P
 =	=
 4Vb	4T	D
 2V 	2T 	D
@@ -21,7 +21,7 @@
 2IV 	2T 	T
 2I 	2T 	T
 =	=
-2iia 	2P 	PD
+2iia 	2P 	P
 4Cb	4D 	D (cadential 64)
 4V	4D	D 	D (cadential 64)
 =	=

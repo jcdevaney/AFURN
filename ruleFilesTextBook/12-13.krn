@@ -4,7 +4,7 @@
 **kern	**kern
 *chord	*function
 *M6/8	*M6/8
-=-	
+=-	=
 8I	8T 	T
 =	=
 2.I	2.T	T
@@ -16,18 +16,18 @@
 4Ia 	4T 	T (Tonic Expansion through Dominant)
 8Va 	8T 	T (Tonic on Higher Level in Phrase Model)
 4I 	4T 	T (Tonic Expansion through Dominant)
-8iia 	8T 	PD
+8iia 	8T 	P
 =	=
 4.Vb	4.T	D
 8V	8T	D
-8ii 	8P 	PD
+8ii 	8P 	P
 =	=
-2.ii 	2.P 	PD
+2.ii 	2.P 	P
 =	=
-2.ii 	2.P 	PD
+2.ii 	2.P 	P
 =	=
-2iia 	2P 	PD
-8iia 	8P 	PD
+2iia 	2P 	P
+8iia 	8P 	P
 8V	8D	D
 =	=
 2.I	2.T 	T
