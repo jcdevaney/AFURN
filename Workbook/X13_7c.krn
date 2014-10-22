@@ -1,0 +1,24 @@
+!!!COM: Corelli
+!!!OTL: Exercise 13.7c, Concerto Grosso no. 8 in G minor, op. 6, Vivace
+!!!Laitz: 127, 212
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-	=-
+2.i	2.T	
+=	=
+2.V	2.T	
+=	=
+2.V	2.T	
+=	=
+2.i	2.T	
+=	=
+2.i	2.T	
+=	=
+2.va	2.T	
+=	=
+2.iva	2.P	
+=	=
+2.V	2.D	
+==	==
+*-	*-

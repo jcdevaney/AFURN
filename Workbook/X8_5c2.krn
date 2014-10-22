@@ -1,0 +1,19 @@
+!!!COM: Laitz
+!!!OTL: Exercise 8.5C - interpretation 2, Piano Sonata no. 2 in A major, op. 2, no. 2, Largo appasionato
+!!!Laitz: 69
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-	=-
+4I	4T	
+2Ia	2T	
+=	=
+4V7c	4T	
+2Ia	2T	
+=	=
+2V7a	2D	
+4I	4D	
+=	=
+2.V	2.D	
+==	==
+*-	*-
