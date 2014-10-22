@@ -1,0 +1,13 @@
+!!!COM:	Laitz
+!!!OTL:	Exercise
+!!!Laitz:	273,
+**chords	*function
+*M4/4	*M4/4
+=-	=-
+4iTT
+4V42/IV TT
+4IV6 	P 	T
+4It6 	P 	T
+=	=
+1V	D	D
+==	==

@@ -1,0 +1,32 @@
+!!!COM:	Laitz
+!!!OTL:	Exercise
+!!!Laitz:	198,
+!!!Note:	could
+=	=	
+4I	T	T
+4V7	TT	(Tonic
+4vi 	TT	T
+4ii6 	TP	T
+= 	=	T
+4V 	T	T
+8V6	T	D
+8V65	TT	(Tonic
+2VI/iii	TT	
+2VI/iii	TP	
+=	=	
+4V/iii	TT	
+4V/iii	TP	P
+4V42/iii	TT	P
+4V42/iii	TP	P
+4i6/iii	TT	
+4i6/iii	TP	
+4ii@65/iii	P	T
+4ii@65/iii	P	P
+=	=	P
+4C64/iii	D	P
+4C64/iii	D	P
+4V/iii	D	P
+4V/iii	D	P
+2i/iii	D	T
+2i/iii	D	P
+==	==	

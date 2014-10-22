@@ -1,0 +1,17 @@
+!!!COM:	Traditional
+!!!OTL:	"Amazing
+!!!Laitz:	106,
+!!!Note:	analysis
+**chords	*function
+*M3/4	*M3/4
+4I	T	T
+=	=
+2.I	T	T
+=	=
+2I TT
+4IV64 TT
+=	=
+2.IV64 TT
+=	=
+2.I TT
+==	=
