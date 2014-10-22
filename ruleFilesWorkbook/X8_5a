@@ -1,24 +1,24 @@
-!!!COM:	Loillet
-!!!OTL:	Exercise
-!!!Laitz:	69
+!!!COM: Loillet
+!!!OTL: Exercise 8.5a. Sonata for Oboe in A minor, op. 5, no. 2 Allegro
+!!!Laitz: 69
 **chord	*function
 *M2/4	*M2/4
 =-	=-
-4i	4T	T
-4V43 	4T 	T (Tonic on Higher Level in Phrase Model)
+4i	4T
+4V43	4T
 =	=
-2i6	2T 	T
+2i6	2T
 =	=
-4i	4T 	T
-4V43 	4T 	T (Tonic on Higher Level in Phrase Model)
+4i	4T
+4V43	4T
 =	=
-2i6	2T 	T
+2i6	2T
 =	=
-4i	4T 	T
-4V43	4T	D 	T
+4i	4T
+4V43	4T
 =	=
-4i6	4T 	T
-8V43	8T	D 	T
-8i	8T 	T
+4i6	4T
+8V43	8T
+8i	8T
 =	=
-4.V	4D	D 	T
+4.V	4D

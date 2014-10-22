@@ -1,23 +1,23 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	105,
-!!!Note:	m2
+!!!COM: Laitz
+!!!OTL: Exercise 11.1c1
+!!!Laitz: 105, 172
+!!!Note: m2 can also be interpreted as expansion of dominant
 **chord	*function
 *M4/4	**M4/4
 =-	=-
-2I 	2T 	T
-4IV64 	4T 	T
-4I 	4T 	T
+2I	2T
+4IV64	4T
+4I	4T
 =	=
-4V6	4T	D
-4I	4T	T
-2V43	2T	D
+4V6	4T
+4I	4T
+2V43	2T
 =	=
-2I6	2T	T
-4V42	4T	D
-4I6	4T	T
+2I6	2T
+4V42	4T
+4I6	4T
 =	=
 2C64	2D
-4V	4D	D
-4V42	4D	D
+4V	4D
+4V42	4D
 ==	==

@@ -1,15 +1,15 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	84,145
+!!!COM: Laitz
+!!!OTL: Exercise 9.3
+!!!Laitz: 84,145
 **chord	*function
 *M4/4	*M4/4
-4V	4(D)	D
+4V	4(D)
 =	=
-4i	4T	T
-4i6	4T	T
-4iv 	4P 	P
-8V 	8D 	D
-8V7 	8D 	D
+4i	4T
+4i6	4T
+4iv	4P
+8V	8D
+8V7	8D
 =	=
-1i	1T 	T
+1i	1T
 ==	==

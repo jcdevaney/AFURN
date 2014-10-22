@@ -1,31 +1,31 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	211,
-!!!Note;	EPM
-**chords	*function
-*M4/4	*M4/4
-=-	=-
+!!!COM: Laitz
+!!!OTL: Exercise 18_12b
+!!!Laitz: 211, 283
+!!!Note; EPM and sequence is not labeled
+**chords	*function	**comments
+*M4/4	*M4/4	*M4/4
+=-	=-	=-
 2i	T	T
-4iio42 TP
-4viio7 TD
-=	=
+4iio42	T	T
+4viio7	T	T
+=	=	=
 4i	T	T
-4V6/III TT (Tonic on Higher Level in Phrase Model)
+4V6/III	T	T
 4III	T	T
-4vii07/III TD
-=	=
+4vii07/III	T	T
+=	=	=
 4III	T	T
-4V6/iv TP
-4iv TP
-4V/V	T	T	D
-=	=
-4V	T	T	D
-4V42	T	T	D
+4V6/iv	T	T
+4iv	T	T
+4V/V	T	T
+=	=	=
+4V	T	T
+4V42	T	T
 4i6	T	T
-4iio65 	P 	P
-=	=
+4iio65	P
+=	=	=
 2C64	D	
-2V	D		D
-=	=
-1i	T	T
-==	==
+2V	D	
+=	=	=
+1i	T	
+==	==	==

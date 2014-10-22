@@ -1,18 +1,18 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	115,
+!!!COM: Laitz
+!!!OTL: Exercise 12.5a1
+!!!Laitz: 115, 195
 **chord	*function
 *M3/4	*M3/4
 =-	=-
-2I	2T 	T
-4viio6 	4T 	D
+2I	2T
+4viio6	4T
 =	=
-2.I6	2T	T
+2.I6	2T
 =	=
-4ii65 	4P 	P
-4vi64	4P	T
-4ii7 	4P 	P
+4ii65	4P
+4vi64	4P
+4ii7	4P
 =	=
-2V	2D	D
-4V42	4D	D
+2V	2D
+4V42	4D
 ==	==

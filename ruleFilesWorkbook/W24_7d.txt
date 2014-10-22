@@ -1,15 +1,15 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	273,
+!!!COM: Laitz
+!!!OTL: Exercise 24.7d
+!!!Laitz: 273, 393
 **chords	*function
 *M4/4	*M4/4
 =-	=-
-4iTT
-4V6 TT (Tonic on Higher Level in Phrase Model)
-4i	T	T
-4V42/iv TP
+4i	T
+4V6	T
+4i	T
+4V42/iv	T
 =	=
-iv6 	P 	P
+iv6	P
 4Fr43	P
-2V	D	D
+2V	D
 ==	==

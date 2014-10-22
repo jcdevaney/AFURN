@@ -1,17 +1,17 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	128,
+!!!COM: Laitz
+!!!OTL: Exercise 3.8a first phrase
+!!!Laitz: 128, 213
 **chord	*function
 *M3/4	*M3/4
 =-	=-
-2i	2T 	T
-4V6 	4T 	T (Tonic on Higher Level in Phrase Model)
+2i	2T
+4V6	4T
 =	=
-2i	2T	T
-4i6	4T	T
+2i	2T
+4i6	4T
 =	=
-2iv 	2P 	P
-4iv6 	4P 	P
+2iv	2P
+4iv6	4P
 =	=
-2.V	2D	D
-==	==
+2.V	2D
+==	==	

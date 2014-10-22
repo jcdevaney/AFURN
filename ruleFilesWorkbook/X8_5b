@@ -1,22 +1,22 @@
-!!!COM:	Tchaikovsky
-!!!OTL:	Example
-!!!Laitz:	69,
+!!!COM: Tchaikovsky
+!!!OTL: Example 8.5b. "The Sick Doll," Children's Pieces, op. 39
+!!!Laitz: 69, 132
 **chord	*function
 *M2/4	*M2/4
 =-	=-
-2i	2T	T
+2i	2T
 =	=
-2V43 	2T 	T (Tonic on Higher Level in Phrase Model)
+2V43	2T
 =	=
-2i6	2T 	T
+2i6	2T
 =	=
-2V43 	2T 	T (Tonic on Higher Level in Phrase Model)
+2V43	2T
 =	=
-2i	2T 	T
+2i	2T
 =	=
-2V43	2T	D 	T
+2V43	2T
 =	=
-2i6	2T 	T
+2i6	2T
 =	=
-2V43	2T	D 	T
+2V43	2T
 =	=

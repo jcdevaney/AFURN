@@ -1,11 +1,11 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	84,
+!!!COM: Laitz
+!!!OTL: Exercise 9.3a
+!!!Laitz: 84, 145
 **chord	*function
 *M4/4	*M4/4
 =-	=-
-4I	4T 	T
-4ii6 	4P 	P
-4V7	4D	D
-4I	4T 	T
+4I	4T
+4ii6	4P
+4V7	4D
+4I	4T
 ==	==

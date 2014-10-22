@@ -1,31 +1,31 @@
-!!!COM:	C.P.E.
-!!!OTL:	Exercise
-!!!Laitz:	70,
+!!!COM: C.P.E. Bach
+!!!OTL: Exercise 8.11a. Sonata no. 5 in A minor for Flute and Continuo, Wq 128 H. 555 
+!!!Laitz: 70, 139
 **chord	*function
 *M2/4	*M2/4
-8i	8T	T
-8i6	8T	T
-8V43	8T	D
+8i	8T
+8i6	8T
+8V43	8T
 =	=
-4.i	4T	T
-8V43	8T	D
+4.i	4T
+8V43	8T
 =	=
-4.i6	4T	T
-8V43 	8T 	T (Tonic on Higher Level in Phrase Model)
+4.i6	4T
+8V43	8T
 =	=
-8i	8T	T
-8viio6 	8T 	D
-8i6	8T	T
-8i	8T	T
+8i	8T
+8viio6	8T
+8i6	8T
+8i	8T
 =	=
-4.viio7 	4T 	D
-8V65	8T	D
+4.viio7	4T
+8V65	8T
 =	=
-4i	4T	T
-4V7	4T	D
+4i	4T
+4V7	4T
 =	=
-4i	4T	T
-4V7	4D	D
+4i	4T
+4V7	4D
 =	=
-2i	2T 	T
+2i	2T
 ==	==

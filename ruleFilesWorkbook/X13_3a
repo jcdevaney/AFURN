@@ -1,16 +1,16 @@
-!!!COM:	Bach
-!!!OTL:	Exercise
-!!!Laitz:	127,
+!!!COM: Bach
+!!!OTL: Exercise 13.3a, "Jesu meine Freude," St. Matthews Passion, BWV 244, harmonization 1 
+!!!Laitz: 127, 209
 **chord	*function
 *M4/4	*M4/4
 =-	=-
-4i	4T 	T
+4i	4T
 4v6	4T
-4.iv6 	4P 	P
-8I64	8P	T
+4.iv6	4P
+8I64	8P
 =	=
-4iio65 	4P 	P
-8V 	8D 	D
-8V7 	8D 	D
-4i	4T 	T
+4iio65	4P
+8V	8D
+8V7	8D
+4i	4T
 ==	==

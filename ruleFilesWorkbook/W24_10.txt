@@ -1,26 +1,26 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	273,
-!!!Note:	unlabeled
-**chords	*function
-*M4/4	*M4/4
-=-	=-
-4i	T	T
-4V43/VI TT (Tonic on Higher Level in Phrase Model)
-4I/VI TT (Tonic on Higher Level in Phrase Model)
-4V6/VI TT
-=	=
-4IV6/VI TT
-4V65/VI TT
-4I/VI TT
+!!!COM: Laitz
+!!!OTL: Exercise 24.10
+!!!Laitz: 273, 397
+!!!Note: unlabeled EPM in extended tonicisation
+**chords	*function	**comments
+*M4/4	*M4/4	*M4/4
+=-	=-	=-
+4i	T	
+4V43/VI	T	
+4I/VI	T	
+4V6/VI	T	
+=	=	=
+4IV6/VI	T	
+4V65/VI	T	
+4I/VI	T	
 4Fr43	T	
-=	=
-4V	T		D
-4V42	T		D
-4iv6/v 	P 	P
+=	=	=
+4V	T	
+4V42	T	
+4iv6/v	P	m
 4Ger65/v	P	m
-=	=
+=	=	=
 4C64/v	D	m
-4V/v	D	m	D
-2i/v	T	m 	T
-==	==
+4V/v	D	m
+2i/v	T	m
+==	==	==

@@ -1,44 +1,44 @@
-!!!COM:	Beethoven
-!!!OTL:	Exercise
-!!!Laitz:	71,
+!!!COM: Beethoven
+!!!OTL: Exercise 8.11b,  Piano Sonata no. 5 in C minor, op. 10, no. 1 Allegro
+!!!Laitz: 71, 140
 **chord	*function
 *M3/4	*M3/4
 =-	=-
-2.i	2T 	T
+2.i	2T
 =	=
-2.i	2T	T
+2.i	2T
 =	=
-2.i	2T	T
+2.i	2T
 =	=
-2i	2T	T
-4V43 	4T 	T (Tonic on Higher Level in Phrase Model)
+2i	2T
+4V43	4T
 =	=
-2.viio65 	2T 	T
+2.viio65	2T
 =	=
-2.viio65 	2T 	D
+2.viio65	2T
 =	=
-2.viio65 	2T 	D
+2.viio65	2T
 =	=
-2viio65 	2T 	D
-4i6	4T	T
+2viio65	2T
+4i6	4T
 =	=
-2.i6	2T	T
+2.i6	2T
 =	=
-2viio43 	2T 	D
-4i6	4T	T
+2viio43	2T
+4i6	4T
 =	=
-2.i6	2T	T
+2.i6	2T
 =	=
-2viio43 	2D 	D
-4i6	4D	T
+2viio43	2D
+4i6	4D
 =	=
-2viio6 	2D 	D
-4VI6	4D	D
+2viio6	2D
+4VI6	4D
 =	=
-2.V6	2D	D
+2.V6	2D
 =	=
-2V6 	2D 	T (Tonic on Higher Level in Phrase Model)
-4viio7 	4D 	D
+2V6	2D
+4viio7	4D
 =	=
-2i	2T 	T
+2i	2T
 ==	==

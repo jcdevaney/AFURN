@@ -1,17 +1,17 @@
-!!!COM:	Beethoven
-!!!OTL:	Exercise
-!!!Laitz:	70,
+!!!COM: Beethoven
+!!!OTL:	Exercise 8.5 - interpretation 1.  Violin Sonata in D major, op. 12, no. 1
+!!!Laitz: 70, 132
 **chord	*function
 *M6/8	*M6/8
-8I	8T	T
+8I	8T
 =	=
-4.I	4T	T
-4.V43 	4T 	T (Tonic on Higher Level in Phrase Model)
+4.I	4T
+4.V43	4T
 =	=
-2.I6	2T	T
+2.I6	2T
 =	=
-4.V65	4T	D
-4.I	4T	T
+4.V65	4T
+4.I	4T
 =	=
-2.V	2D	D
+2.V	2D
 ==	==

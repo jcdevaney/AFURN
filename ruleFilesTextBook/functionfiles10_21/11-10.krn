@@ -1,0 +1,20 @@
+!!!COM:	Mozart
+!!!OTL:	Concerto
+!!!Laitz:	233
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-	
+1I	1T 	T
+=	=
+1V7a 	1T 	T
+=	=
+4I 	4T 	T (Tonic Expansion through Dominant)
+4V7b 	4T 	T (Tonic on Higher Level in Phrase Model)
+4Ia 	4T 	T (Tonic Expansion through Dominant)
+4iia 	4P 	P
+=	=
+2Cb	2D 	D (cadential 64)
+2V	2D	D 	D (cadential 64)
+==	==
+*-	*-

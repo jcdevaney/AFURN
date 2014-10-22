@@ -1,22 +1,22 @@
-!!!COM:	Corelli
-!!!OTL:	Exercise
-!!!Laitz:	127,
+!!!COM: Corelli
+!!!OTL: Exercise 13.7c, Concerto Grosso no. 8 in G minor, op. 6, Vivace
+!!!Laitz: 127, 212
 **chord	*function
 *M3/4	*M3/4
 =-	=-
-2.i	2T 	T
+2.i	2T
 =	=
-2.V	2T	D
+2.V	2T
 =	=
-2.V 	2T 	T (Tonic on Higher Level in Phrase Model)
+2.V	2T
 =	=
-2.i	2T	T
+2.i	2T
 =	=
-2.i	2T	T
+2.i	2T
 =	=
 2.v6	2T
 =	=
-2.iv6 	2P 	P
+2.iv6	2P
 =	=
-2.V	2D	D
+2.V	2D
 ==	==

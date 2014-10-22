@@ -1,18 +1,18 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	105,
+!!!COM: Laitz
+!!!OTL: Exercise 11.1e2
+!!!Laitz: 105, 172
 **chord	*function
 *M4/4	*M4/4
 =-	=-
-2I6	2T 	T
-8I6	8T	T
-8V 	8T 	T (Tonic on Higher Level in Phrase Model)
-8I 	8T 	T
-8IV6 	8T 	T
+2I6	2T
+8I6	8T
+8V	8T
+8I	8T
+8IV6	8T
 =	=
-8I6 	8T 	T
-8ii6 	8P 	P
+8I6	8T
+8ii6	8P
 8C64	8D
-8V	8D	D
-2I	2T 	T
+8V	8D
+2I	2T
 ==	==

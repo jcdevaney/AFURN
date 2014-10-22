@@ -1,18 +1,18 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	136,
-!!!Note:	m.2
+!!!COM: Laitz
+!!!OTL: Exercise 14.7c
+!!!Laitz: 136, 225
+!!!Note: m.2 beat 3 is mislabeled in book as ii@65.
 **chord	*function
 *M4/4	**M4/4
 =-	=-
-4i	4T 	T
+4i	4T
 4v6	4T
-2VI	2T	D
+2VI	2T
 =	=
-4iv 	4P 	P
+4iv	4P
 4v	4P
-4ii@43 	4P 	P
-4V7	4D	D
+4ii@43	4P
+4V7	4D
 =	=
-1i	1T 	T
+1i	1T
 ==	==

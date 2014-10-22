@@ -1,20 +1,20 @@
-!!!COM:	Laitz
-!!!OTL:	Exercise
-!!!Laitz:	237,
-!!!Note:	unlabeled
+!!!COM: Laitz
+!!!OTL: Exercise 21_5
+!!!Laitz: 237, 341
+!!!Note: unlabeled EPM
 **chords	*function
 *M3/4	*M3/4
 =-	=-
-2ITT
-4V6	T	D
+2I	T
+4V6	T
 =	=
-4I	T	T
-4iv TP
-4V	T	D
+4I	T
+4iv	T
+4V	T
 =	=
 4bVI	T
-4iio65 	P 	P
-4V	D	D
+4iio65	P
+4V	D
 =	-
-2.ITT
+2.I	T
 ==	==

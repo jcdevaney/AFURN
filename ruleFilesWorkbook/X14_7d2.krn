@@ -1,0 +1,28 @@
+!!!COM: Beethoven 
+!!!OTL: Exercise 14.7d2, Piano Sonata no. 7 in D major, op. 10, no. 3, Menuetto, Allegro
+!!!Laitz: 137, 225
+!!!Note: Unsure whether the analysis suggests that this excerpt consists of one phrase or two phrases (with X14_7d) as the book calls the half cadence a back-relating dominant (292) and the second phrase starts with a preodominant chord.  This excerpt does create a parallel continuous period.
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4	*M3/4
+=-
+4ii	4T	P
+=	=	=
+2.ii	2.T	P
+=	=	=
+2.V7b/ii	2.T	P
+=	=	=
+2.iia	2.T	P
+=	=	=
+2.V7b	2.T	D
+=	=	=
+2.Ia	2.T	T
+=	=	=
+4V	4D	
+2V7	2D	
+=	=	
+2.I	2.T	
+=	=	
+4I	4T	
+==	==	==
+*-	*-	*-

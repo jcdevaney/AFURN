@@ -1,13 +1,13 @@
-!!!COM:	Mozart
-!!!OTL:	Exercise
-!!!Laitz:	84,
+!!!COM: Mozart
+!!!OTL: Exercise 9.1b, Symphony in D, K. 81, Andante
+!!!Laitz: 84, 144
 **chord	*function
 *M2/4	*M2/4
 =-	=-
-2I 	2T 	T
+2I	2T
 =	=
-2IV 	2P 	P
+2IV	2P
 =	=
-2V7 	2D 	D
+2V7	2D
 =	=
-8.I 	8T 	T
+8.I	8T
