@@ -1,0 +1,21 @@
+!!!COM:	Laitz
+!!!OTL:	Exercise
+!!!Laitz:	211,
+**chords	*function
+*M3/4	*M3/4
+=-	=-
+2iTT
+4viio7 TD
+=	=
+2III	T	T
+4vio7/iv TP
+=	=
+4iv 	P 	P
+4viio7/iv 	P 	D
+4iv6 	P 	P
+=	=
+2C64	D
+4V7	D	D
+=	=
+2.iTT
+==	==

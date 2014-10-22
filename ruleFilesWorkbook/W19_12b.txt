@@ -1,0 +1,34 @@
+!!!COM:	Laitz
+!!!OTL:	Exercise
+!!!Laitz:	198,
+!!!Note:	could
+**chords	*function
+*M2/4	*M2/4
+=	=
+4I	T	T
+4V7 TT (Tonic on Higher Level in Phrase Model)
+4vi TT
+4ii6 TP
+=	=
+4V	T		D
+8V6	T		D
+8V65 TT (Tonic on Higher Level in Phrase Model)
+2VI/iii TT
+2VI/iii TP
+=	=
+4V/iii TT
+4V/iii TP
+4V42/iii TT
+4V42/iii TP
+4i6/iii TT
+4i6/iii TP
+4ii@65/iii 	P 	T
+4ii@65/iii 	P 	P
+=	=
+4C64/iii 	D 	T
+4C64/iii 	D 	P
+4V/iii 	D 	T
+4V/iii 	D 	P
+2i/iii 	D 	T
+2i/iii 	D 	P
+==	==
