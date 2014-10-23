@@ -2,16 +2,17 @@
 !!!OTL:	Violin
 !!!Laitz:	270
 **kern	**kern
+*chord	*function
 =-	=-	=-
 1I	1T	T
 =	=	=
 1I	1T	T
 =	=	=
-1vi	1T	T
+1vi 	1T	T
 =	=	=
-1ii	1T	T
+1ii 	1T	T
 =	=	=
-1ii	1T	T
+1ii 	1T	T
 =	=	=
 1V7	1T	T
 =	=	=

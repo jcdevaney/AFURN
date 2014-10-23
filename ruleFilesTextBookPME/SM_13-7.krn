@@ -2,17 +2,18 @@
 !!!OTL:	Clarinet
 !!!Laitz:	272
 **kern	**kern
+*chord	*function
 =-	=-	=-
 2I	2T	T
 2Ia	2T	T
 =	=	=
 2V7	2T	T
-2vi	2T	T
+2vi 	2T	T
 =	=	=
-4iia	4T	T
-4Ia 	4T	T
-4ii 	4T	T
 4iia 	4T	T
+4Ia 	4T	T
+4ii	4T	P
+4iia	4T	P
 =	=	=
 2V7	2T	T
 2vi	2T	T

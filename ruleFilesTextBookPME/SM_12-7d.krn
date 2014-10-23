@@ -2,10 +2,11 @@
 !!!OTL:	Example
 !!!Laitz:	253
 **kern	**kern
+*chord	*function
 =-	=-	=-
-2i	2T	T
-4IVa	4T	T
-4V7a	4T	T
+2i 	2T	T
+4IVa 	4T	T
+4V7a 	4T	T
 =	=	=
 1i	1=	T
 ==	==	==

@@ -2,6 +2,7 @@
 !!!OTL:	Piano
 !!!Laitz:	257
 **kern	**kern
+*chord	*function
 =-	=-	=-
 8I	8T	T
 =	=	=
@@ -16,9 +17,9 @@
 4I	4T	T
 8iia	8T	T
 =	=	=
-4.Vb	4.T	T
-8V	8T	T
-8ii	8P	T
+4.Vb	4.T	D
+8V	8T	D
+8ii	8P	P
 =	=	=
 2.ii	2.P	P
 =	=	=
