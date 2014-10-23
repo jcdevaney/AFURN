@@ -4,12 +4,12 @@
 **kern	**kern
 *chord	*function
 *M4/4	*M4/4
-=-	=-
-4I	4T 	T
-8viioa 	8T 	D
-8Ia 	8T 	T
-8IV 	8P 	P
-8V 	8D 	D
-4I 	4T 	T
-==	==
 *-	*-
+=-	=-	=-
+4I	4T	T
+8viioa	8T	T
+8Ia	8T	T
+8IV	8P	T
+8V	8D	D
+4I	4T	T
+==	==	==

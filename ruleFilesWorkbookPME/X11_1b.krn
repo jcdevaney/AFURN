@@ -4,24 +4,24 @@
 **kern	**kern
 *chord	*function
 *M4/4	*M4/4
-=-	=-
-4i 	4T 	T
-4Vb 	4T 	T
-4ia 	4T 	T
-4V7c 	4T 	T (Tonic on Higher Level in Phrase Model)
-=	=
+*-	*-
+=-	=-	=-
+4i	4T	T
+4Vb	4T	T
+4ia	4T	T
+4V7c	4T	T
+=	=	=
 4ia	4T	T
 4ib	4T	T
-4i	4T	T
-4ivb 	4T 	P
-=	=
-4i	4T	T
-4iioa 	4P 	P
+4i 	4T	T
+4ivb 	4T	T
+=	=	=
+4i 	4T	T
+4iioa	4P	P
 4Vb	4D	D
 4V	4D	D
-=	=
-4i	4T 	T
-4ivb 	4T 	P
-2I	2T 	T
-==	==
-*-	*-
+=	=	=
+4i	4T	T
+4ivb	4T	P
+2I	2T	T
+==	==	==
