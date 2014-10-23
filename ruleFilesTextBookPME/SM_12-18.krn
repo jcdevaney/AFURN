@@ -2,9 +2,6 @@
 !!!OTL:	Piano
 !!!Laitz:	263
 **kern	**kern
-*chord	*function
-*M4/4	*M4/4
-*-	*-
 =-	=-	=-
 1I	1T	T
 =	=	=
@@ -14,10 +11,10 @@
 8I	8T	T
 8Ia	8T	T
 =	=	=
-2I 	2T	T
-2ii 	2T	T
+2I	2T	T
+2ii	2T	T
 =	=	=
-2V7 	2T	T
+2V7	2T	T
 2I	2T	T
 =	=	=
 1Ia	1T	T

@@ -2,9 +2,6 @@
 !!!OTL:	Exercise
 !!!Laitz:	70,
 **kern	**kern
-*chord	*function
-*M2/4	*M2/4
-*-	*-
 =-	=-	=-
 8i	8T	T
 8ia	8T	T
@@ -17,11 +14,11 @@
 8V7b	8T	T
 =	=	=
 8i	8T	T
-8viioa	8T	D
+8viioa	8T	T
 8ia	8T	T
 8i	8T	T
 =	=	=
-4.viio7	4.T	D
+4.viio7	4.T	T
 8V7a	8T	T
 =	=	=
 4i	4T	T
