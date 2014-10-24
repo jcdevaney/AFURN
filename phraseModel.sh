@@ -54,20 +54,32 @@ else print $1"\011"$2"\011"$3
 ####Enforce D prolongation over DTD
 dtd=$(pattern -f ../patterns/dtd /tmp/$1.pdp | head -1 | awk '{print $6}')
 dtd1=$(pattern -f ../patterns/dtd /tmp/$1.pdp | head -1 | awk '{print $9}')
-awk -v dtd=$dtd -v pdp1=$dtd1 '{ if (NR >= dtd && NR <= dtd1)
+awk -v dtd=$dtd -v dtd1=$dtd1 '{ if (NR >= dtd && NR <= dtd1)
 print $1,"\011"$2"\011""D";
 else print $1"\011"$2"\011"$3
 }' /tmp/$1.pdp > /tmp/$1.dtd
 
+####Little Dominants are people too.
+lildom=$(pattern -f ../patterns/lildom /tmp/$1.dtd | head -1 | awk '{print $6}')
+lildom1=$(pattern -f ../patterns/lildom /tmp/$1.dtd | head -1 | awk '{print $9}')
+awk -v lildom=$lildom -v lildom1=$lildom1 '{ if (NR >= lildom && NR <= lildom1)
+print $1,"\011"$2"\011""T";
+else print $1"\011"$2"\011"$3
+}' /tmp/$1.dtd > /tmp/$1.dtd1
+
 ####Enforce T prolongation over TPT
-tpt=$(pattern -f ../patterns/tpt /tmp/$1.dtd | head -1 | awk '{print $6}')
-tpt1=$(pattern -f ../patterns/tpt /tmp/$1.dtd | head -1 | awk '{print $9}')
+tpt=$(pattern -f ../patterns/tpt /tmp/$1.dtd1 | head -1 | awk '{print $6}')
+tpt1=$(pattern -f ../patterns/tpt /tmp/$1.dtd1 | head -1 | awk '{print $9}')
 awk -v tpt=$tpt -v tpt1=$tpt1 '{ if (NR >= tpt && NR <= tpt1)
 print $1,"\011"$2"\011""T";
 else print $1"\011"$2"\011"$3
-}' /tmp/$1.dtd > /tmp/$1.tpt
+}' /tmp/$1.dtd1 > /tmp/$1.tpt
 
-awk '{if ($1 !~ /[0-9]/) print $1"\011"$1"\011"$1; else print $0}' /tmp/$1.tpt > /tmp/$1.tpt3
+##clean up files that have blanks
+awk '{if ($3 ~ /^[ ]*$/) { print $1,"\011"$2"\011""T" } 
+else if ($1 ~ /=/) print $1"\011"$1"\011"$1; else print $0}' /tmp/$1.tpt > /tmp/$1.tpt2
+
+awk '{if ($1 !~ /[0-9]/) print $1"\011"$1"\011"$1; else print $0}' /tmp/$1.tpt2 > /tmp/$1.tpt3
 
 cat /tmp/$1.comments /tmp/$1.metaData /tmp/$1.metre /tmp/$1.tpt3
 
