@@ -1,28 +1,41 @@
-ruleDir='../ruleFilesTextBook/';
-ruleDir2='../ruleFilesTextBookPME/';
+ruleDirTB='../ruleFilesTextBook/';
+ruleDirTBpme='../ruleFilesTextBookPME/';
+ruleDirWB='../ruleFilesWorkbook/';
+ruleDirWBpme='../ruleFilesWorkbookPME/';
 textDir='../textBook/';
 wbDir='../workbook';
 
-ignore=[33 52 53 56  58  59 67 70 103  114  117];
-maxFiles=128;
-[rules, pred]=readRuleFiles(ruleDir,ignore,maxFiles);
-[rules2, pred2]=readRuleFiles(ruleDir2,ignore,maxFiles);
-
-hmm=PRstruct;
+priorWeight=0.01;
+[rulesTB, predTB]=readRuleFiles(ruleDirTB,[],127);
+[rulesTBpme, predTBpme]=readRuleFiles(ruleDirTBpme,[],127);
+[rulesWB, predWB]=readRuleFiles(ruleDirWB,[],54);
+[rulesWBpme, predWBpme]=readRuleFiles(ruleDirWBpme,[],54);
 
 for i = 1 : 5
-    HMMvals{i}=laitz(pred,[i:5:128],textDir, wbDir); 
+    [HMMvalsTB{i}, HMMvalsTBprior{i}, HMMvalsWB{i}, HMMvalsWBprior{i}]=laitz(predTBpme,predWBpme,[i:5:127],textDir, wbDir,priorWeight); 
 end
 
-fnames = fieldnames(hmm);
+hmmTB=PRstruct;
+hmmTBprior=PRstruct;
 
-for i = 1 : 5
-    for f = 1 : length(fnames)
-        hmm.(fnames{f})=hmm.(fnames{f})+HMMvals{i}.(fnames{f});
+fnames = fieldnames(hmmTB);
+for f = 1 : length(fnames)
+    for i = 1 : 5
+        hmmTB.(fnames{f})=hmmTB.(fnames{f})+HMMvalsTB{i}.(fnames{f});
+        hmmTBprior.(fnames{f})=hmmTBprior.(fnames{f})+HMMvalsTBprior{i}.(fnames{f});        
     end
 end
 
-hmm=calcPRF(hmm);
-hmm.confusion=HMMvals{1}.confusion+HMMvals{2}.confusion+HMMvals{3}.confusion+HMMvals{4}.confusion+HMMvals{5}.confusion;
-hmm.confusionPercent=hmm.confusion/sum(sum(hmm.confusion))*100;
-rules.confusionPercent=rules.confusion/sum(sum(rules.confusion))*100;
+hmmWB=HMMvalsWB{1};
+hmmWBprior=HMMvalsWBprior{1};
+
+hmmTB=calcPRF(hmmTB);
+hmmTBprior=calcPRF(hmmTBprior);
+hmmWB=calcPRF(hmmWB);
+hmmWBprior=calcPRF(hmmWBprior);
+% hmm2=calcPRF(hmm);
+% hmm1.confusion=HMMvals{1}.confusion+HMMvals{2}.confusion+HMMvals{3}.confusion+HMMvals{4}.confusion+HMMvals{5}.confusion;
+% hmm1.confusionPercent=hmm.confusion/sum(sum(hmm.confusion))*100;
+% hmm2.confusion=HMMvals{1}.confusion+HMMvals{2}.confusion+HMMvals{3}.confusion+HMMvals{4}.confusion+HMMvals{5}.confusion;
+% hmm2.confusionPercent=hmm.confusion/sum(sum(hmm.confusion))*100;
+% rules.confusionPercent=rules.confusion/sum(sum(rules.confusion))*100;

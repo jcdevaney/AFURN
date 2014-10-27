@@ -1,4 +1,4 @@
-function [GT,vpath1,vpath2]=runLaitzHMM(testData, trainData, pred)
+function [GT,vpath1,vpath2]=runLaitzHMM(testData, trainData, pred, priorWeight)
 
 for i = 1 : length(trainData)
     functions{i}=[trainData{i}{:,3}];
@@ -215,15 +215,15 @@ for ex = 1 : length(testData)
         end
         %% need to put in a catch for III
         
-%         for j = 1 : length(durationTypes)
-%             if strcmp(obsDur{i},durationTypes(j))
-%                 dataDur{ex}(i) = j;
-%             end
-%         end 
+        for j = 1 : length(durationTypes)
+            if strcmp(obsDur{i},durationTypes(j))
+                dataDur{ex}(i) = j;
+            end
+        end 
     end
     
     alldataChord{ex}=dataChord{ex};  
-%     alldataDur{ex}=dataDur{ex};  
+    alldataDur{ex}=dataDur{ex};  
     allGT{1}{ex}=GT{ex};
     
     % clean up non entries
@@ -237,14 +237,16 @@ for ex = 1 : length(testData)
     chordObsLike = multinomial_prob(dataChord{ex}, chordCount');
 %     durObsLike = multinomial_prob(dataDur{ex}, durCount');
     
+    % prior
     tmpMat=(zeros(size(chordObsLike)));
     for i = 1 : length(PR{ex})
-         tmpMat(PR{ex}(i),i)=0.05;
+         tmpMat(PR{ex}(i),i)=priorWeight;
     end
     
     obsMat=chordObsLike+tmpMat;
 
     %run verterbi on the combination observation likelihood
+
     vpath1{ex}=viterbi_path(startingState, trans, chordObsLike);%.*durObsLike);
     vpath2{ex}=viterbi_path(startingState, trans, obsMat);%.*durObsLike);
     

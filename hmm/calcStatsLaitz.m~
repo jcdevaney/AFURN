@@ -1,0 +1,8 @@
+function res=calcStatsLaitz(res.vpath,res.GT)
+
+res1.predVals=[res1.vpath2{:}];
+res1.gtVals=[res1.GT{:}];
+
+res1.confusion = confusionMat(res1.predVals,res1.gtVals);
+
+res1=tallyTFPN(res1);

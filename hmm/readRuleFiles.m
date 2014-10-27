@@ -98,7 +98,6 @@ gtVals=[gt{list1}];
 predVals=[pred{list1}];
 
 predVals(predVals==' ')='T';
-
 rules=PRstruct;
 
 % modify confusionMat to handle this
