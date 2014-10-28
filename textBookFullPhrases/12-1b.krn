@@ -1,0 +1,15 @@
+!!!COM: Laitz
+!!!OTL: Example 14.1 Typical Harmonic Contexts for the Mediant
+!!!Laitz: 287
+**kern	**kern
+*chord	*function
+*M4/4	*M4/4
+=-
+2I	2T
+2iii	2T
+=	=
+2IV	2P
+2V	2D
+=	=
+1I	1T
+*-	*-

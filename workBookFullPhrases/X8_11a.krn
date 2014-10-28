@@ -1,0 +1,34 @@
+!!!COM: C.P.E. Bach
+!!!OTL: Exercise 8.11a. Sonata no. 5 in A minor for Flute and Continuo, Wq 128 H. 555 
+!!!Laitz: 70, 139
+**kern	**kern
+*chord	*function
+*M2/4	*M2/4
+=-	=-
+8i	8T
+8ia	8T
+8V7b	8T
+=	=
+4.i	4.T
+8V7b	8T
+=	=
+4.ia	4.T
+8V7b	8T
+=	=
+8i	8T
+8viioa	8T
+8ia	8T
+8i	8T
+=	=
+4.viio7	4.T
+8V7a	8T
+=	=
+4i	4T
+4V7	4T
+=	=
+4i	4T
+4V7	4D
+=	=
+2i	2T
+==	==
+*-	*-

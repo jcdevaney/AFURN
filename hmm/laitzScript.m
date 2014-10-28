@@ -9,16 +9,16 @@ wbDir='../workbook';
 
 % useDur=1;
 priorWeight=0.01;
-[rulesTB, predTB]=readRuleFiles(ruleDirTB,[],127);
-[rulesTBpme, predTBpme]=readRuleFiles(ruleDirTBpme,[],127);
+[rulesTB, predTB]=readRuleFiles(ruleDirTB,[],126);
+[rulesTBpme, predTBpme]=readRuleFiles(ruleDirTBpme,[],126);
 [rulesWB, predWB]=readRuleFiles(ruleDirWB,[],54);
 [rulesWBpme, predWBpme]=readRuleFiles(ruleDirWBpme,[],54);
 
 for i = 1 : 5
     % dur
-    [HMMvalsTBdur{i}, HMMvalsTBpriordur{i}, HMMvalsWBdur{i}, HMMvalsWBpriordur{i}]=laitz(predTBpme,predWBpme,[i:5:127],textDir, wbDir,priorWeight,1); 
+    [HMMvalsTBdur{i}, HMMvalsTBpriordur{i}, HMMvalsWBdur{i}, HMMvalsWBpriordur{i}]=laitz(predTBpme,predWBpme,[i:5:126],textDir, wbDir,priorWeight,1); 
     % no dur
-    [HMMvalsTB{i}, HMMvalsTBprior{i}, HMMvalsWB{i}, HMMvalsWBprior{i}]=laitz(predTBpme,predWBpme,[i:5:127],textDir, wbDir,priorWeight,0);     
+    [HMMvalsTB{i}, HMMvalsTBprior{i}, HMMvalsWB{i}, HMMvalsWBprior{i}]=laitz(predTBpme,predWBpme,[i:5:126],textDir, wbDir,priorWeight,0);     
 end
 
 hmmTBdur=PRstruct;

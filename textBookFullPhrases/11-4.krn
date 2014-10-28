@@ -1,0 +1,26 @@
+!!!COM: Beethoven
+!!!OTL: Piano Sonata in C Major, op.2, no.3, Trio
+!!!Laitz: 229
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-
+2.i	2.T
+=	=
+2.Vb	2.T
+=	=
+2.ia	2.T
+=	=
+2.V7c	2.T
+=	=
+2.ia	2.T
+=	=
+2.iioa	2.P
+=	=
+4V7	4D
+4Cb	4D
+4V	4D
+=	=
+2.i	2.T
+==	==
+*-	*-

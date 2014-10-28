@@ -1,0 +1,25 @@
+!!!COM: Chopin
+!!!OTL: Nocturne in F# minor, op. 48, no. 2
+!!!Laitz: 195
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-	=-
+4I	4T
+2V7b	2T
+=	=
+2.V7b	2.T
+=	=
+4Ia	4T
+2IV	2P
+=	=
+2.IV	2.P
+=	=
+2.V7	2.D
+=	=
+2.I	2.T
+=	=
+2.V7	2.D
+=	=
+2I	2T
+*-	*-

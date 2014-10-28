@@ -1,0 +1,25 @@
+!!!COM: Laitz
+!!!OTL: Example 10.11 Suspensions in Four Voices
+!!!Laitz: 214
+**kern	**kern
+*chord	*function
+*M3/4	*M3/4
+=-
+4i	4T
+4viioa	4T
+4ia	4T
+=	=
+2.V7	2.T
+=	=
+2.i	2.T
+=	=
+2Va	2T
+4i	4T
+=	=
+2iioa	2P
+4V7	4D
+=	=
+2i	2T
+4I	4T
+==	==
+*-	*-
