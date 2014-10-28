@@ -1,0 +1,6 @@
+[round(rulesTBpme.fscoreT*100) round(rulesTBpme.fscoreP*100) round(rulesTBpme.fscoreD*100)]
+[round(hmmTB.fscoreT*100) round(hmmTB.fscoreP*100) round(hmmTB.fscoreD*100)]
+[round(hmmTBprior.fscoreT*100) round(hmmTBprior.fscoreP*100) round(hmmTBprior.fscoreD*100)]
+[round(rulesWBpme.fscoreT*100) round(rulesWBpme.fscoreP*100) round(rulesWBpme.fscoreD*100)]
+[round(hmmWB.fscoreT*100) round(hmmWB.fscoreP*100) round(hmmWB.fscoreD*100)]
+[round(hmmWBprior.fscoreT*100) round(hmmWBprior.fscoreP*100) round(hmmWBprior.fscoreD*100)]

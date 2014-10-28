@@ -2,8 +2,6 @@ ruleDirTB='../ruleFilesTextBook/';
 ruleDirTBpme='../ruleFilesTextBookPME/';
 ruleDirWB='../ruleFilesWorkbook/';
 ruleDirWBpme='../ruleFilesWorkbookPME/';
-% textDir='../ruleFilesTextBook/';
-% wbDir='../ruleFilesWorkbook';
 textDir='../textBook/';
 wbDir='../workbook';
 
@@ -37,11 +35,6 @@ for f = 1 : length(fnames)
         hmmTBprior.(fnames{f})=hmmTBprior.(fnames{f})+HMMvalsTBprior{i}.(fnames{f});        
     end
 end
-
-hmmTBdur.confusion=HMMvalsTBdur{1}.confusion+HMMvalsTBdur{2}.confusion+HMMvalsTBdur{3}.confusion+HMMvalsTBdur{4}.confusion+HMMvalsTBdur{5}.confusion;
-hmmTBpriordur.confusion=HMMvalsTBpriordur{1}.confusion+HMMvalsTBpriordur{2}.confusion+HMMvalsTBpriordur{3}.confusion+HMMvalsTBpriordur{4}.confusion+HMMvalsTBpriordur{5}.confusion;
-hmmTB.confusion=HMMvalsTB{1}.confusion+HMMvalsTB{2}.confusion+HMMvalsTB{3}.confusion+HMMvalsTB{4}.confusion+HMMvalsTB{5}.confusion;
-hmmTBprior.confusion=HMMvalsTBprior{1}.confusion+HMMvalsTBprior{2}.confusion+HMMvalsTBprior{3}.confusion+HMMvalsTBprior{4}.confusion+HMMvalsTBprior{5}.confusion;
 
 hmmTBdur=calcPRF(hmmTBdur);
 hmmTBpriordur=calcPRF(hmmTBpriordur);

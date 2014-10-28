@@ -200,21 +200,20 @@ for ex = 1 : length(testData)
 %     num=1;
     num1=1;
     for i = 1 : length(testData{ex})
-%         for j = 1 : eval(testData{ex}{i,1})
+        for j = 1 : eval(testData{ex}{i,1})
             if useDur            
                 obsDur{i}=eval(testData{ex}{i,1});
             else
-                obsDur{i}=1;
+                obsDur{j}=1;
             end
-            obsChord(num1:num1+obsDur{i}-1)=repmat(testData{ex}(i,2),1,obsDur{i});
-            tmp=testData{ex}(i,3);
-            gts(num1:num1+obsDur{i}-1)=repmat(tmp{1}(1),1,obsDur{i});
-            prior(num1:num1+obsDur{i}-1)=repmat(pred{ex}(i),1,obsDur{i});
+            obsChord(num1:num1+obsDur{j}-1)=repmat(testData{ex}(i,2),1,obsDur{j});
+            gts(num1:num1+obsDur{j}-1)=repmat(testData{ex}(i,3),1,obsDur{j});
+            prior(num1:num1+obsDur{j}-1)=repmat(pred{ex}(i),1,obsDur{j});
             
 %             gts{num}=testData{ex}{i,3};
 %             prior{num}=pred{ex}(i);
             
-            num1=num1+obsDur{i};
+            num1=num1+obsDur{j};
 %                 for count = 0 : eval(obsDur{num})-1
 %                     obsChord{num1}=testData{ex}{i,2};
 %                     num1=num1+1;
@@ -224,7 +223,7 @@ for ex = 1 : length(testData)
 %                 num1=num1+1;
 %             end
 %             num=num+1;
-%         end
+        end
     end
 
     for i = 1 : length(prior)
@@ -240,13 +239,13 @@ for ex = 1 : length(testData)
     end    
     
     for i = 1 : length(gts)
-        if strcmp(gts(i),'T')            
+        if strcmp(gts{i},'T')            
             GT{ex}(i) = 1;
         end
-        if strcmp(gts(i),'P')
+        if strcmp(gts{i},'P')
             GT{ex}(i) = 2;
         end
-        if strcmp(gts(i),'D')
+        if strcmp(gts{i},'D')
             GT{ex}(i) = 3;
         end
     end
