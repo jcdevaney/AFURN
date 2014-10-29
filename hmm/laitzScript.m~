@@ -1,22 +1,29 @@
 ruleDirTB='../ruleFilesTextBook/';
-ruleDirTBpme='../ruleFilesTextBookPME/';
+ruleDirTBpme='../ruleFilesTextBook/';
+% ruleDirTBpme='../tmpTextbookFullPhrases/';
 ruleDirWB='../ruleFilesWorkbook/';
-ruleDirWBpme='../ruleFilesWorkbookPME/';
+ruleDirWBpme='../tmpWorkbookFullPhrases/';
+% ruleDirWBpme='../tmpWorkbookFullPhrases/';
+% textDir='../ruleFilesTextBook/';
+% wbDir='../ruleFilesWorkbook';
 textDir='../textBook/';
 wbDir='../workbook';
+% trainDir='../textBookTonicExpansion/';
+% textDir='../textBookFullPhrases/';
+% wbDir='../workBookFullPhrases';
 
 % useDur=1;
 priorWeight=0.01;
-[rulesTB, predTB]=readRuleFiles(ruleDirTB,[],127);
-[rulesTBpme, predTBpme]=readRuleFiles(ruleDirTBpme,[],127);
+[rulesTB, predTB]=readRuleFiles(ruleDirTB,[],126);
+[rulesTBpme, predTBpme]=readRuleFiles(ruleDirTBpme,[],85);
 [rulesWB, predWB]=readRuleFiles(ruleDirWB,[],54);
-[rulesWBpme, predWBpme]=readRuleFiles(ruleDirWBpme,[],54);
+[rulesWBpme, predWBpme]=readRuleFiles(ruleDirWBpme,[],51);
 
-for i = 1 : 5
+for ver = 1 : 5
     % dur
-    [HMMvalsTBdur{i}, HMMvalsTBpriordur{i}, HMMvalsWBdur{i}, HMMvalsWBpriordur{i}]=laitz(predTBpme,predWBpme,[i:5:127],textDir, wbDir,priorWeight,1); 
+    [HMMvalsTBdur{ver}, HMMvalsTBpriordur{ver}, HMMvalsWBdur{ver}, HMMvalsWBpriordur{ver}]=laitz(predTBpme,predWBpme,(ver:5:85),textDir, wbDir,priorWeight,1,0); 
     % no dur
-    [HMMvalsTB{i}, HMMvalsTBprior{i}, HMMvalsWB{i}, HMMvalsWBprior{i}]=laitz(predTBpme,predWBpme,[i:5:127],textDir, wbDir,priorWeight,0);     
+    [HMMvalsTB{ver}, HMMvalsTBprior{ver}, HMMvalsWB{ver}, HMMvalsWBprior{ver}]=laitz(predTBpme,predWBpme,(ver:5:85),textDir, wbDir,priorWeight,0,0);     
 end
 
 hmmTBdur=PRstruct;
@@ -35,6 +42,11 @@ for f = 1 : length(fnames)
         hmmTBprior.(fnames{f})=hmmTBprior.(fnames{f})+HMMvalsTBprior{i}.(fnames{f});        
     end
 end
+
+hmmTBdur.confusion=HMMvalsTBdur{1}.confusion+HMMvalsTBdur{2}.confusion+HMMvalsTBdur{3}.confusion+HMMvalsTBdur{4}.confusion+HMMvalsTBdur{5}.confusion;
+hmmTBpriordur.confusion=HMMvalsTBpriordur{1}.confusion+HMMvalsTBpriordur{2}.confusion+HMMvalsTBpriordur{3}.confusion+HMMvalsTBpriordur{4}.confusion+HMMvalsTBpriordur{5}.confusion;
+hmmTB.confusion=HMMvalsTB{1}.confusion+HMMvalsTB{2}.confusion+HMMvalsTB{3}.confusion+HMMvalsTB{4}.confusion+HMMvalsTB{5}.confusion;
+hmmTBprior.confusion=HMMvalsTBprior{1}.confusion+HMMvalsTBprior{2}.confusion+HMMvalsTBprior{3}.confusion+HMMvalsTBprior{4}.confusion+HMMvalsTBprior{5}.confusion;
 
 hmmTBdur=calcPRF(hmmTBdur);
 hmmTBpriordur=calcPRF(hmmTBpriordur);

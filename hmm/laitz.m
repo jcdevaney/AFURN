@@ -1,9 +1,19 @@
-function [res1, res2, res3, res4]=laitz(pred1,pred2,testing,textList,wbList,priorWeight,useDur)
+function [res1, res2, res3, res4]=laitz(pred1,pred2,testing,textDir,wbDir,priorWeight,useDur,trainDir)
 
 % 5-fold cross-validation on textbook
-[fileList, fileData]=getFileList(textList);
+[fileList, fileData]=getFileList(textDir);
 num1 = 1;
 num2 = 1;
+
+if trainDir
+    [fileListTrain, fileDataTrain]=getFileList(trainDir);
+    for i = 1 : length(fileDataTrain)
+        trainData{num2} = fileDataTrain{i};
+        trainList{num2} = fileDataTrain{i};
+        num2=num2+1;    
+    end
+end
+
 for i = 1 : length(fileData)
     if sum(i==testing) > 0
         testData{num1} = fileData{i};
@@ -21,7 +31,7 @@ res1=calcStatsLaitz(vpath,GT);
 res2=calcStatsLaitz(vpath2,GT);
 
 % train on textbook, test on workbook
-[WBfileList, WBfileData]=getFileList(wbList);
+[WBfileList, WBfileData]=getFileList(wbDir);
 [WBGT,WBvpath,WBvpath2] = runLaitzHMM(WBfileData,fileData,pred2,priorWeight,useDur);
 
 res3=calcStatsLaitz(WBvpath,WBGT);

@@ -1,24 +1,29 @@
 ruleDirTB='../ruleFilesTextBook/';
-ruleDirTBpme='../ruleFilesTextBookPME/';
+ruleDirTBpme='../ruleFilesTextBookpme/';
+% ruleDirTBpme='../tmpTextbookFullPhrases/';
 ruleDirWB='../ruleFilesWorkbook/';
-ruleDirWBpme='../ruleFilesWorkbookPME/';
+ruleDirWBpme='../ruleFilesWorkbookpme/';
+% ruleDirWBpme='../tmpWorkbookFullPhrases/';
 % textDir='../ruleFilesTextBook/';
 % wbDir='../ruleFilesWorkbook';
 textDir='../textBook/';
 wbDir='../workbook';
+% trainDir='../textBookTonicExpansion/';
+% textDir='../textBookFullPhrases/';
+% wbDir='../workBookFullPhrases';
 
 % useDur=1;
 priorWeight=0.01;
 [rulesTB, predTB]=readRuleFiles(ruleDirTB,[],126);
-[rulesTBpme, predTBpme]=readRuleFiles(ruleDirTBpme,[],126);
+[rulesTBpme, predTBpme]=readRuleFiles(ruleDirTBpme,[],85);
 [rulesWB, predWB]=readRuleFiles(ruleDirWB,[],54);
-[rulesWBpme, predWBpme]=readRuleFiles(ruleDirWBpme,[],54);
+[rulesWBpme, predWBpme]=readRuleFiles(ruleDirWBpme,[],51);
 
-for i = 1 : 5
+for ver = 1 : 5
     % dur
-    [HMMvalsTBdur{i}, HMMvalsTBpriordur{i}, HMMvalsWBdur{i}, HMMvalsWBpriordur{i}]=laitz(predTBpme,predWBpme,[i:5:126],textDir, wbDir,priorWeight,1); 
+    [HMMvalsTBdur{ver}, HMMvalsTBpriordur{ver}, HMMvalsWBdur{ver}, HMMvalsWBpriordur{ver}]=laitz(predTBpme,predWBpme,(ver:5:85),textDir, wbDir,priorWeight,1,0); 
     % no dur
-    [HMMvalsTB{i}, HMMvalsTBprior{i}, HMMvalsWB{i}, HMMvalsWBprior{i}]=laitz(predTBpme,predWBpme,[i:5:126],textDir, wbDir,priorWeight,0);     
+    [HMMvalsTB{ver}, HMMvalsTBprior{ver}, HMMvalsWB{ver}, HMMvalsWBprior{ver}]=laitz(predTBpme,predWBpme,(ver:5:85),textDir, wbDir,priorWeight,0,0);     
 end
 
 hmmTBdur=PRstruct;
