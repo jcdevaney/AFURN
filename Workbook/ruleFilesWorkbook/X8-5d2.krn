@@ -1,0 +1,20 @@
+!!!COM:	Beethoven
+!!!OTL:	Exercise
+!!!Laitz:	70,
+**kern	**kern
+*chord	*function
+*M6/8	*M6/8
+=-	=-
+8I	8T 	T
+=	=
+4.I 	4.T 	T (Tonic Expansion through Dominant)
+4.V7b 	4.T 	T (Tonic on Higher Level in Phrase Model)
+=	=
+2.Ia 	2.T 	T (Tonic Expansion through Dominant)
+=	=
+4.V7a 	4.D 	T
+4.I	4.D	T
+=	=
+2.V	2.T	D
+==	==
+*-	*-
