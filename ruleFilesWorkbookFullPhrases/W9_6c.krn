@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Laitz
 !!!OTL:	Exercise
 !!!Laitz:	85,
@@ -6,13 +5,13 @@ got smoothing
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-4i	4T 	T
+4i	4T	T
 4viioa 	4T 	D
 2ia 	2T 	T
 =	=
 4viio7b 	4T 	T
 4ia 	4T 	T
-2V7b	2T	D
+2V7b	2T	D	D
 =	=
 8i	8T	T
 8viioa 	8T 	D
@@ -21,7 +20,6 @@ got smoothing
 8V 	8D 	D
 8V7 	8D 	D
 =	=
-1I	1T 	T
+1I	1T	T
 ==	==
 *-	*-
-is done

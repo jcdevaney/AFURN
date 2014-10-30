@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Laitz
 !!!OTL:	Exercise
 !!!Laitz:	105,
@@ -6,17 +5,16 @@ got smoothing
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-2Ia	2T	T
-8Ia	8T	T
+2Ia	2T	T	T
+8Ia	8T	T	T
 8V 	8T 	T (Tonic on Higher Level in Phrase Model)
 8I 	8T 	T
 8IVa 	8T 	T
 =	=
 8Ia 	8T 	T
 8iia 	8P 	P
-8Cb	8D 	D (cadential 64)
-8V	8D	D 	D (cadential 64)
-2I	2T 	T
+8Cb	8D 	D (cadential 64) 	D (cadential 64)
+8V	8D	D	D
+2I	2T	T
 ==	==
 *-	*-
-is done

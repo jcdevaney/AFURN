@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Laitz
 !!!OTL:	Exercise
 !!!Laitz:	128,
@@ -6,7 +5,7 @@ got smoothing
 *chord	*function
 *M3/4	*M3/4
 =-	=-
-2i	2T 	T
+2i	2T	T
 4Va 	4T 	T (Tonic on Higher Level in Phrase Model)
 =	=
 2i	2T	T
@@ -15,7 +14,6 @@ got smoothing
 2iv 	2P 	P
 4iva 	4P 	P
 =	=
-2.V	2.D	D
+2.V	2.D	D	D
 ==	==
 *-	*-
-is done

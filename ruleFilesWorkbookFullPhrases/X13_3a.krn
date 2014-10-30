@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Bach
 !!!OTL:	Exercise
 !!!Laitz:	127,
@@ -6,15 +5,14 @@ got smoothing
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-4i	4T 	T
+4i	4T	T
 4va	4T
 4.iva 	4.P 	P
-8Ib	8P	T
+8Ib	8P	T	T
 =	=
 4iio7a 	4P 	P
 8V 	8D 	D
 8V7 	8D 	D
-4i	4T 	T
+4i	4T	T
 ==	==
 *-	*-
-is done

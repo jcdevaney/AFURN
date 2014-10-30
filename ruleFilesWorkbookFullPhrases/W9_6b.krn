@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Laitz
 !!!OTL:	Exercise
 !!!Laitz:	85,
@@ -6,13 +5,12 @@ got smoothing
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-4ia	4T 	T
-4V7b	4T	D
+4ia	4T	T
+4V7b	4T	D	D
 4i	4T	T
 4iva 	4P 	P
 =	=
-2V	2D	D
-2V7	2D	D
+2V	2D	D	D
+2V7	2D	D	D
 ==	==
 *-	*-
-is done

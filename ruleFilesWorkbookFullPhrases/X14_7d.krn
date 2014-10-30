@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Beethoven
 !!!OTL:	Exercise
 !!!Laitz:	137,
@@ -6,13 +5,13 @@ got smoothing
 *chord	*function
 *M3/4	*M3/4
 =-	=-
-4I	4T 	T
+4I	4T	T
 =	=
 2.I	2.T	T
 =	=
 2.V7b 	2.T 	T (Tonic on Higher Level in Phrase Model)
 =	=
-2.Ia	2.T	T
+2.Ia	2.T	T	T
 =	=
 2.I	2.T	T
 =	=
@@ -21,9 +20,8 @@ got smoothing
 2I	2T	T
 4iia 	4P 	P
 =	=
-2.Vb	2.D	D
+2.Vb	2.D	D	D
 =	=
-2.V	2.D	D
+2.V	2.D	D	D
 ==	==
 *-	*-
-is done

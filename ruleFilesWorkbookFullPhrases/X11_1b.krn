@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Laitz
 !!!OTL:	Exercise
 !!!Laitz:	105,
@@ -18,12 +17,11 @@ got smoothing
 =	=
 4i	4T	T
 4iioa 	4P 	P
-4Vb	4D	D
-4V	4D	D
+4Vb	4D	D	D
+4V	4D	D	D
 =	=
-4i	4T 	T
+4i	4T	T
 4ivb 	4T 	P
-2I	2T 	T
+2I	2T	T
 ==	==
 *-	*-
-is done

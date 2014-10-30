@@ -1,4 +1,3 @@
-got smoothing
 !!!COM:	Corelli
 !!!OTL:	Exercise
 !!!Laitz:	127,
@@ -6,9 +5,9 @@ got smoothing
 *chord	*function
 *M3/4	*M3/4
 =-	=-
-2.i	2.T 	T
+2.i	2.T	T
 =	=
-2.V	2.T	D
+2.V 	2.T 	T (Tonic on Higher Level in Phrase Model)
 =	=
 2.V 	2.T 	T (Tonic on Higher Level in Phrase Model)
 =	=
@@ -20,7 +19,6 @@ got smoothing
 =	=
 2.iva 	2.P 	P
 =	=
-2.V	2.D	D
+2.V	2.D	D	D
 ==	==
 *-	*-
-is done
