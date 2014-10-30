@@ -1,16 +1,16 @@
 !!!COM:	Laitz
 !!!OTL:	Exercise
-!!!Laitz:	69
+!!!Laitz:	85,
 **kern	**kern
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-4I	4T	T
+4i	4T 	T
 4V7a 	4T 	T
-4I	4T 	T
-4V7c	4T	D 	T
+4i	4T	T
+4iva 	4P 	P
 =	=
-4Ia	4T	T
-4V7b	4T	D 	T
-4I	4T 	T
+2.V	2.D	D
+4V7c	4D	D
+==	==
 *-	*-
