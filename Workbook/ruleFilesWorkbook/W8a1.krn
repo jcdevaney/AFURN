@@ -1,18 +1,18 @@
 got smoothing
 !!!COM:	Laitz
 !!!OTL:	Exercise
-!!!Laitz:	84,145
+!!!Laitz:	69
 **kern	**kern
 *chord	*function
 *M4/4	*M4/4
 =-	=-
-4i	4T 	T
-4ia	4T	T
-4iv 	4P 	P
-8V 	8D 	D
-8V7 	8D 	D
+4I	4T	T
+4V7a 	4T 	T
+4I	4T 	T
+4V7c	4T	D 	T
 =	=
-1i	1T 	T
-==	==
+4Ia	4T	T
+4V7b	4T	D 	T
+4I	4T 	T
 *-	*-
 is done
